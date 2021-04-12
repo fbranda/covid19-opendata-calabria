@@ -13,9 +13,37 @@ Questo repository contiene i dati in formato aperto relativi all'andamento del C
 *   Dati province
 *   Dati comuni
 
+## Struttura del repository
+```
+
+covid19-opendata-calabria/
+│
+├── dati/
+│   ├── provincia
+│   │   ├── Catanzaro
+│   │       ── Catanzaro.xlsx
+│   │   ├── Cosenza
+│   │       ├── Cosenza.xlsx
+│   │       ├── comuni
+│   │           ├── Marzo_2020
+│   │               ├── ASP_CS_Marzo_2020.csv
+│   │               ...
+│   │
+│   │   ├── Crotone
+│   │        ├── Crotone.xlsx
+│   │   ├── Reggio Calabria
+│   │         ├── Reggio Calabria.xlsx
+│   │   ├── Vibo Valentia
+│   │         ├── Vibo Valentia.xlsx
+│   ├── regione
+│   │   ├── Calabria.xlsx
+
+```
+
 # Descrizione dataset
 
 Nella cartella dati si possono trovare le seguenti tabelle in formato xlsx e csv: 
+*   **Calabria**: dati relativi all'andamento del COVID-19 a livello regionale. 
 *   **Catanzaro**: dati relativi all'andamento del COVID-19 a Catanzaro.
 *   **Cosenza**: dati relativi all'andamento del COVID-19 a Cosenza.
 *   **Crotone**: dati relativi all'andamento del COVID-19 a Crotone.
@@ -25,6 +53,9 @@ Nella cartella dati si possono trovare le seguenti tabelle in formato xlsx e csv
 
 
 I campi di ogni tabella sono schematizzati:
+
+
+
 
 
 
