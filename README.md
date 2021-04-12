@@ -3,11 +3,14 @@
 <div align="center">
 <img src="calabria-regione-1.svg" width="150">
 </div>
+<div align="center">
+  [Questo repository contiene i dati in formato aperto relativi all'andamento del COVID-19 in Calabria](http://covida19.herokuapp.com/calabria.html)
+</div>
 <br />
 
 # Descrizione repository
 
-Questo repository contiene i dati in formato aperto relativi all'andamento del COVID-19 in Calabria e mette a disposizione, le seguenti informazioni aggiornate quotidianamente:
+Per informare i cittadini e mettere a disposizione i dati raccolti, utili ai soli fini comunicativi e di informazione, questo repository mette a disposizione, le seguenti informazioni aggiornate quotidianamente:
 
 *   Dati regione
 *   Dati province
