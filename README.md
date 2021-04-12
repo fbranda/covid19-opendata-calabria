@@ -2,10 +2,11 @@
 
 <div align="center">
 <img src="calabria-regione-1.svg" width="150">
-</div>
 
-[Questo repository contiene i dati in formato aperto relativi all'andamento del COVID-19 in Calabria](http://covida19.herokuapp.com/calabria.html)
+
+[Questo repository contiene i dati in formato aperto relativi all'andamento del COVID-19 in Calabria.](http://covida19.herokuapp.com/calabria.html)
 <br />
+</div>
 
 # Descrizione repository
 
