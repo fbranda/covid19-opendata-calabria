@@ -72,10 +72,10 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | --- | --- | --- |
 | Comune | string | Nome completo del comune. |
 | A domicilio | integer | Numero di persone positive al COVID-19 che non necessitano di cure ospedaliere e si trovano in isolamento presso il loro domicilio. |
-| Guariti | integer | Numero di pazienti dimessi dagli ospedali, o perché non necessitano più di cure ospedaliere e quindi vengono isolate presso il loro domicilio, o perché ne è stata verificata la negatività attraverso il tampone. |
+| Guariti/Dimessi | integer | Numero di pazienti dimessi dagli ospedali, o perché non necessitano più di cure ospedaliere e quindi vengono isolate presso il loro domicilio, o perché ne è stata verificata la negatività attraverso il tampone. |
 | Deceduti | integer | Numero totale di persone morte e risultate positive al COVID-19. |
 | Ricoverati | integer | Numero totale di persone ricoverate in ospedale con sintomi connessi al COVID-19. |
-| Totale casi| integer | Numero totale di nuovi casi registrati nelle ultime 24 ore (a domicilio + guariti + deceduti + ricoverati). |
+| Totale casi| integer | Numero totale di nuovi casi registrati nelle ultime 24 ore (A domicilio + Guariti + Deceduti + Ricoverati). |
 
 
 
