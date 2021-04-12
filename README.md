@@ -21,7 +21,7 @@ covid19-opendata-calabria/
 ├── dati/
 │   ├── provincia
 │   │   ├── Catanzaro
-│   │       ── Catanzaro.xlsx
+│   │       ├── Catanzaro.xlsx
 │   │   ├── Cosenza
 │   │       ├── Cosenza.xlsx
 │   │       ├── comuni
