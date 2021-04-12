@@ -5,7 +5,6 @@
 </div>
 
 [Questo repository contiene i dati in formato aperto relativi all'andamento del COVID-19 in Calabria](http://covida19.herokuapp.com/calabria.html)
-
 <br />
 
 # Descrizione repository
