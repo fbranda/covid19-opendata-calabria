@@ -28,13 +28,12 @@ covid19-opendata-calabria/
 │   │           ├── Marzo_2020
 │   │               ├── ASP_CS_Marzo_2020.csv
 │   │               ...
-│   │
 │   │   ├── Crotone
-│   │        ├── Crotone.xlsx
+│   │       ├── Crotone.xlsx
 │   │   ├── Reggio Calabria
-│   │         ├── Reggio Calabria.xlsx
+│   │       ├── Reggio Calabria.xlsx
 │   │   ├── Vibo Valentia
-│   │         ├── Vibo Valentia.xlsx
+│   │       ├── Vibo Valentia.xlsx
 │   ├── regione
 │   │   ├── Calabria.xlsx
 
@@ -49,10 +48,33 @@ Nella cartella dati si possono trovare le seguenti tabelle in formato xlsx e csv
 *   **Crotone**: dati relativi all'andamento del COVID-19 a Crotone.
 *   **Reggio Calabria**: dati relativi all'andamento del COVID-19 a Reggio Calabria.
 *   **Vibo Valentia**: dati relativi all'andamento del COVID-19 a Vibo Valentia.
+*   **ASP_CS_Mese_Anno**: dati relativi all'andamento del COVID-19 suddivisi per comuni della provincia di Cosenza. 
 
 
 
-I campi di ogni tabella sono schematizzati:
+I campi di ogni tabella sono schematizzati come riportato di seguito:
+
+**Calabria** - **Catanzaro** - **Cosenza** - **Crotone** - **Reggio Calabria** - **Vibo Valentia**
+
+| Campo | Tipo di dati | Descrizione |
+| --- | --- | --- |
+| data | string | Il giorno in cui . |
+| Nuovi casi | integer | Andamento dei nuovi casi registrati ogni giorno. |
+| Media 7 giorni | integer | Vengono considerati i dati di un determinato periodo e ne viene calcolata la media sommandoli fra loro e dividendo per il numero totale di valori.|
+| Deceduti | integer | Numero totale di persone morte e risultate positive al COVID-19. |
+| Dimessi/Guariti | integer | Numero di pazienti dimessi dagli ospedali, o perché non necessitano più di cure ospedaliere e quindi vengono isolate presso il loro domicilio, o perché ne è stata verificata la negatività attraverso il tampone. |
+| Ricoverati | integer | Numero totale di persone ricoverate in ospedale con sintomi connessi al COVID-19. |
+| Terapia intensiva | integer | Numero totale di posti letto di TI occupati da pazienti positivi al COVID-19. |
+
+**ASP_CS_Mese_Anno**
+| Campo | Tipo di dati | Descrizione |
+| --- | --- | --- |
+| Comune | string | Nome del comune. |
+| A domicilio | integer | Numero di persone positive al COVID-19 che non necessitano di cure ospedaliere e si trovano in isolamento presso il loro domicilio. |
+| Guariti | integer | Numero di pazienti dimessi dagli ospedali, o perché non necessitano più di cure ospedaliere e quindi vengono isolate presso il loro domicilio, o perché ne è stata verificata la negatività attraverso il tampone. |
+| Deceduti | integer | Numero totale di persone morte e risultate positive al COVID-19. |
+| Ricoverati | integer | Numero totale di persone ricoverate in ospedale con sintomi connessi al COVID-19. |
+| Totale | integer | Nome del comune. |
 
 
 
