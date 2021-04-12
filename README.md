@@ -59,7 +59,7 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | Campo | Tipo di dati | Descrizione |
 | --- | --- | --- |
 | Data | string |  Data in cui si registrano nuovi casi. |
-| Nuovi casi | integer | Nuemro totale di persone risultate positive nelle ultime 24 ore. |
+| Nuovi casi | integer | Numero totale di persone risultate positive nelle ultime 24 ore. |
 | Media 7 giorni | integer | Vengono considerati i dati di un determinato periodo e ne viene calcolata la media sommandoli fra loro e dividendo per il numero totale di valori.|
 | Deceduti | integer | Numero totale di persone morte e risultate positive al COVID-19. |
 | Dimessi/Guariti | integer | Numero di pazienti dimessi dagli ospedali, o perché non necessitano più di cure ospedaliere e quindi vengono isolate presso il loro domicilio, o perché ne è stata verificata la negatività attraverso il tampone. |
