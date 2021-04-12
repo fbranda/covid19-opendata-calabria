@@ -58,8 +58,8 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 
 | Campo | Tipo di dati | Descrizione |
 | --- | --- | --- |
-| data | string | Il giorno in cui . |
-| Nuovi casi | integer | Andamento dei nuovi casi registrati ogni giorno. |
+| Data | string |  Data in cui si registrano nuovi casi. |
+| Nuovi casi | integer | Andamento dei nuovi casi registrati quotidianemente. |
 | Media 7 giorni | integer | Vengono considerati i dati di un determinato periodo e ne viene calcolata la media sommandoli fra loro e dividendo per il numero totale di valori.|
 | Deceduti | integer | Numero totale di persone morte e risultate positive al COVID-19. |
 | Dimessi/Guariti | integer | Numero di pazienti dimessi dagli ospedali, o perché non necessitano più di cure ospedaliere e quindi vengono isolate presso il loro domicilio, o perché ne è stata verificata la negatività attraverso il tampone. |
@@ -67,14 +67,15 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | Terapia intensiva | integer | Numero totale di posti letto di TI occupati da pazienti positivi al COVID-19. |
 
 **ASP_CS_Mese_Anno**
+
 | Campo | Tipo di dati | Descrizione |
 | --- | --- | --- |
-| Comune | string | Nome del comune. |
+| Comune | string | Nome completo del comune. |
 | A domicilio | integer | Numero di persone positive al COVID-19 che non necessitano di cure ospedaliere e si trovano in isolamento presso il loro domicilio. |
 | Guariti | integer | Numero di pazienti dimessi dagli ospedali, o perché non necessitano più di cure ospedaliere e quindi vengono isolate presso il loro domicilio, o perché ne è stata verificata la negatività attraverso il tampone. |
 | Deceduti | integer | Numero totale di persone morte e risultate positive al COVID-19. |
 | Ricoverati | integer | Numero totale di persone ricoverate in ospedale con sintomi connessi al COVID-19. |
-| Totale | integer | Nome del comune. |
+| Totale casi| integer | Numero totale di nuovi casi registrati nelle ultime 24 ore (a domicilio + guariti + deceduti + ricoverati). |
 
 
 
