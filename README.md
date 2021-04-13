@@ -81,11 +81,12 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | Totale casi| integer | Numero totale di nuovi casi registrati nelle ultime 24 ore (A domicilio + Guariti + Deceduti + Ricoverati). |
 
 
+## Licenza
 
-
-
-
+[CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.it) - [Visualizza licenza](https://github.com/pcm-dpc/COVID-19/blob/master/LICENSE)
 
 ## Author / Copyright 
 
-[2021 (c) Francesco Branda](https://francescobranda.netlify.app/)
+[2021 (c) Francesco Branda](https://francescobranda.netlify.app/) 
+
+
