@@ -25,20 +25,39 @@ covid19-opendata-calabria/
 │   ├── provincia
 │   │   ├── Catanzaro
 │   │       ├── Catanzaro.xlsx
+│   │       ├── Catanzaro.csv
 │   │   ├── Cosenza
 │   │       ├── Cosenza.xlsx
+│   │       ├── Cosenza.csv
 │   │       ├── comuni
 │   │           ├── Marzo_2020
-│   │               ├── ASP_CS_Marzo_2020.csv
+│   │               ├── 2020-03.24.csv
+│   │                   ...
+│   │           ├── Aprile_2020
+│   │               ├── 2020-04.01.csv
 │   │               ...
+│   │           ...
 │   │   ├── Crotone
 │   │       ├── Crotone.xlsx
+│   │       ├── Catanzaro.csv
 │   │   ├── Reggio Calabria
 │   │       ├── Reggio Calabria.xlsx
+│   │       ├── Reggio Calabria.csv
 │   │   ├── Vibo Valentia
 │   │       ├── Vibo Valentia.xlsx
+│   │       ├── Vibo Valentia.csv
 │   ├── regione
 │   │   ├── Calabria.xlsx
+│   │   ├── Calabria.csv
+│   ├── vaccinazione
+│   │   ├── dosi_consegnate_consumate_per_settimana.csv
+│   │   ├── dosi_consegnate_per_settimana.csv
+│   │   ├── somministrazioni_giornaliere.csv
+│   │   ├── somministrazioni_giornaliere_per_categoria.csv
+│   │   ├── somministrazioni_giornaliere_per_eta_prima_dose.csv
+│   │   ├── somministrazioni_giornaliere_tipo_dose.csv
+│   │   ├── somministrazioni_per_eta_prima_dose.csv
+│   │   ├── somministrazioni_per_eta_seconda_dose.csv
 
 ```
 
@@ -51,7 +70,16 @@ Nella cartella dati si possono trovare le seguenti tabelle in formato xlsx e csv
 *   **Crotone**: dati relativi all'andamento del COVID-19 a Crotone.
 *   **Reggio Calabria**: dati relativi all'andamento del COVID-19 a Reggio Calabria.
 *   **Vibo Valentia**: dati relativi all'andamento del COVID-19 a Vibo Valentia.
-*   **ASP_CS_Mese_Anno**: dati relativi all'andamento del COVID-19 suddivisi per comuni della provincia di Cosenza. 
+*   **ASP_PROVINCIA_Mese_Anno**: dati relativi all'andamento del COVID-19 suddivisi per comune. 
+*   **dosi_consegnate_per_settimana**: dati relativi al numero di dosi dei vaccini anti-COVID-19 consegnate settimanalmente.
+*   **dosi_consegnate_consumate_per_settimana**: dati relativi al numero di dosi di vaccino consegnate e quelle somministrate su base settimanale.
+*   **somministrazioni_giornaliere**: dati relativi al numero assoluto di dosi somministrate al giorno.
+*   **somministrazioni_giornaliere_per_categoria**: dati relativi al numero assoluto di dosi di vaccino somministrate al giorno per categoria di popolazione.
+*   **somministrazioni_giornaliere_per_eta_prima_dose**: dati relativi al numero assoluto di dosi di vaccino somministrate (prima dose) al giorno per età.
+*   **somministrazioni_giornaliere_per_tipo_dose**: dati relativi al numero assoluto di dosi somministrate al giorno, suddiviso per prima dose e seconda dose.
+*   **somministrazioni_per_eta_prima_dose**: dati relativi alla percentuale di popolazione che ha ricevuto solo la prima dose di vaccino. 
+*   **somministrazioni_per_eta_seconda_dose**: dati relativi alla percentuale di popolazione che ha completato il ciclo vaccinale (2 dosi di vaccino). 
+
 
 
 
@@ -65,18 +93,18 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | Nuovi casi | integer | Numero totale di persone risultate positive nelle ultime 24 ore. |
 | Media 7 giorni | integer | Vengono considerati i dati di un determinato periodo e ne viene calcolata la media sommandoli fra loro e dividendo per il numero totale di valori.|
 | Deceduti | integer | Numero totale di persone morte e risultate positive al COVID-19. |
-| Dimessi/Guariti | integer | Numero di pazienti dimessi dagli ospedali, o perché non necessitano più di cure ospedaliere e quindi vengono isolate presso il loro domicilio, o perché ne è stata verificata la negatività attraverso il tampone. |
+| Guariti/Dimessi | integer | Numero di pazienti dimessi dagli ospedali, o perché non necessitano più di cure ospedaliere e quindi vengono isolate presso il loro domicilio, o perché ne è stata verificata la negatività attraverso il tampone. |
 | Ricoverati | integer | Numero totale di persone ricoverate in ospedale con sintomi connessi al COVID-19. |
 | Terapia intensiva | integer | Numero totale di posti letto di TI occupati da pazienti positivi al COVID-19. |
 
-**ASP_CS_Mese_Anno**
+**ASP_PROVINCIA_Mese_Anno**
 
 | Campo | Tipo di dati | Descrizione |
 | --- | --- | --- |
 | Comune | string | Nome completo del comune. |
 | A domicilio | integer | Numero di persone positive al COVID-19 che non necessitano di cure ospedaliere e si trovano in isolamento presso il loro domicilio. |
-| Guariti/Dimessi | integer | Numero di pazienti dimessi dagli ospedali, o perché non necessitano più di cure ospedaliere e quindi vengono isolate presso il loro domicilio, o perché ne è stata verificata la negatività attraverso il tampone. |
 | Deceduti | integer | Numero totale di persone morte e risultate positive al COVID-19. |
+| Guariti/Dimessi | integer | Numero di pazienti dimessi dagli ospedali, o perché non necessitano più di cure ospedaliere e quindi vengono isolate presso il loro domicilio, o perché ne è stata verificata la negatività attraverso il tampone. |
 | Ricoverati | integer | Numero totale di persone ricoverate in ospedale con sintomi connessi al COVID-19. |
 | Totale casi| integer | Numero totale di nuovi casi registrati nelle ultime 24 ore (A domicilio + Guariti + Deceduti + Ricoverati). |
 
