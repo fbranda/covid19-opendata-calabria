@@ -31,10 +31,10 @@ covid19-opendata-calabria/
 │   │       ├── Cosenza.csv
 │   │       ├── comuni
 │   │           ├── Marzo_2020
-│   │               ├── 2020-03.24.csv
+│   │               ├── ASP_CS_2020-03-24.csv
 │   │                   ...
 │   │           ├── Aprile_2020
-│   │               ├── 2020-04.01.csv
+│   │               ├── ASP_CS_2020-04-01.csv
 │   │               ...
 │   │           ...
 │   │   ├── Crotone
@@ -70,7 +70,7 @@ Nella cartella dati si possono trovare le seguenti tabelle in formato xlsx e csv
 *   **Crotone**: dati sull'andamento del COVID-19 a Crotone.
 *   **Reggio Calabria**: dati sull'andamento del COVID-19 a Reggio Calabria.
 *   **Vibo Valentia**: dati sull'andamento del COVID-19 a Vibo Valentia.
-*   **2020-03-24**: dati sull'andamento del COVID-19 suddivisi per data e comune. 
+*   **ASP_PROVINCIA_ANNO-MESE-GIORNO**: dati sull'andamento del COVID-19 suddivisi per data e comune. 
 *   **dosi_consegnate_per_settimana**: dati sul numero di dosi dei vaccini anti-COVID-19 consegnate settimanalmente.
 *   **dosi_consegnate_consumate_per_settimana**: dati sul numero di dosi di vaccino consegnate e quelle somministrate su base settimanale.
 *   **somministrazioni_giornaliere**: dati sul numero assoluto di dosi somministrate al giorno.
@@ -97,7 +97,7 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | Ricoverati | integer | Numero totale di persone ricoverate in ospedale con sintomi connessi al COVID-19. |
 | Terapia intensiva | integer | Numero totale di posti letto di TI occupati da pazienti positivi al COVID-19. |
 
-**ASP_PROVINCIA_Mese_Anno**
+**ASP_PROVINCIA_ANNO-MESE-GIORNO**
 
 | Campo | Tipo di dati | Descrizione |
 | --- | --- | --- |
