@@ -64,21 +64,21 @@ covid19-opendata-calabria/
 # Descrizione dataset
 
 Nella cartella dati si possono trovare le seguenti tabelle in formato xlsx e csv: 
-*   **Calabria**: dati relativi all'andamento del COVID-19 a livello regionale. 
-*   **Catanzaro**: dati relativi all'andamento del COVID-19 a Catanzaro.
-*   **Cosenza**: dati relativi all'andamento del COVID-19 a Cosenza.
-*   **Crotone**: dati relativi all'andamento del COVID-19 a Crotone.
-*   **Reggio Calabria**: dati relativi all'andamento del COVID-19 a Reggio Calabria.
-*   **Vibo Valentia**: dati relativi all'andamento del COVID-19 a Vibo Valentia.
-*   **ASP_PROVINCIA_Mese_Anno**: dati relativi all'andamento del COVID-19 suddivisi per comune. 
-*   **dosi_consegnate_per_settimana**: dati relativi al numero di dosi dei vaccini anti-COVID-19 consegnate settimanalmente.
-*   **dosi_consegnate_consumate_per_settimana**: dati relativi al numero di dosi di vaccino consegnate e quelle somministrate su base settimanale.
-*   **somministrazioni_giornaliere**: dati relativi al numero assoluto di dosi somministrate al giorno.
-*   **somministrazioni_giornaliere_per_categoria**: dati relativi al numero assoluto di dosi di vaccino somministrate al giorno per categoria di popolazione.
-*   **somministrazioni_giornaliere_per_eta_prima_dose**: dati relativi al numero assoluto di dosi di vaccino somministrate (prima dose) al giorno per età.
-*   **somministrazioni_giornaliere_per_tipo_dose**: dati relativi al numero assoluto di dosi somministrate al giorno, suddiviso per prima dose e seconda dose.
-*   **somministrazioni_per_eta_prima_dose**: dati relativi alla percentuale di popolazione che ha ricevuto solo la prima dose di vaccino. 
-*   **somministrazioni_per_eta_seconda_dose**: dati relativi alla percentuale di popolazione che ha completato il ciclo vaccinale (2 dosi di vaccino). 
+*   **Calabria**: dati sull'andamento del COVID-19 a livello regionale. 
+*   **Catanzaro**: dati sull'andamento del COVID-19 a Catanzaro.
+*   **Cosenza**: dati sull'andamento del COVID-19 a Cosenza.
+*   **Crotone**: dati sull'andamento del COVID-19 a Crotone.
+*   **Reggio Calabria**: dati sull'andamento del COVID-19 a Reggio Calabria.
+*   **Vibo Valentia**: dati sull'andamento del COVID-19 a Vibo Valentia.
+*   **2020-03-24**: dati sull'andamento del COVID-19 suddivisi per data e comune. 
+*   **dosi_consegnate_per_settimana**: dati sul numero di dosi dei vaccini anti-COVID-19 consegnate settimanalmente.
+*   **dosi_consegnate_consumate_per_settimana**: dati sul numero di dosi di vaccino consegnate e quelle somministrate su base settimanale.
+*   **somministrazioni_giornaliere**: dati sul numero assoluto di dosi somministrate al giorno.
+*   **somministrazioni_giornaliere_per_categoria**: dati sul numero assoluto di dosi di vaccino somministrate al giorno per categoria di popolazione.
+*   **somministrazioni_giornaliere_per_eta_prima_dose**: dati sul numero assoluto di dosi di vaccino somministrate (prima dose) al giorno per età.
+*   **somministrazioni_giornaliere_per_tipo_dose**: dati sul numero assoluto di dosi somministrate al giorno, suddiviso per prima dose e seconda dose.
+*   **somministrazioni_per_eta_prima_dose**: dati sulla percentuale di popolazione che ha ricevuto solo la prima dose di vaccino. 
+*   **somministrazioni_per_eta_seconda_dose**: dati sulla percentuale di popolazione che ha completato il ciclo vaccinale (2 dosi di vaccino). 
 
 
 
