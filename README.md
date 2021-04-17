@@ -108,6 +108,51 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | Ricoverati | integer | Numero totale di persone ricoverate in ospedale con sintomi connessi al COVID-19. |
 | Totale casi| integer | Numero totale di nuovi casi registrati nelle ultime 24 ore (A domicilio + Guariti + Deceduti + Ricoverati). |
 
+**dosi_consegnate_per_settimana**
+
+| Campo | Tipo di dati | Descrizione |
+| --- | --- | --- |
+| Data | string | Settimana di riferimento. |
+| Dosi consegnate | integer | Numero totale di dosi consegnate per settimana. |
+
+**dosi_consegnate_consumate_per_settimana**
+
+| Campo | Tipo di dati | Descrizione |
+| --- | --- | --- |
+| Data | string | Settimana di riferimento. |
+| Dosi consegnate | integer | Numero totale di dosi consegnate per settimana. |
+| Dosi consumate | integer | Numero totale di dosi somministrate per settimana. |
+
+**somministrazioni_giornaliere**
+
+| Campo | Tipo di dati | Descrizione |
+| --- | --- | --- |
+| Data | string | Giorno in cui vengono somministrate le dosi. |
+| Somministrazioni | integer | Numero totale di somministrazioni per giorno. |
+
+**somministrazioni_giornaliere_per_categoria**
+
+| Campo | Tipo di dati | Descrizione |
+| --- | --- | --- |
+| Data | string | Giorno in cui vengono somministrate le dosi. |
+| Operatori sanitari/sociosanitari | integer | Totale dei soggetti appartenenti alla categoria degli operatori sanitari e sociosanitari a cui è stato somministrato il vaccino per giorno. |
+| Personale non sanitario | integer | Totale dei soggetti appartenenti alla categoria del personale non sanitario a cui è stato somministrato il vaccino per giorno. |
+| Altro | integer | Numero somministrazioni altra categoria di rischio prevalente per giorno. |
+| Ospiti RSA | integer | Totale dei soggetti ospiti della struttura residenziale a cui è stato somministrato il vaccino per giorno. |
+| Over 80 | integer | Numero somministrazioni categoria di rischio prevalente over 80 per giorno. |
+| Forze armate | integer | Totale dei soggetti appartenenti alla categoria delle forze dell'ordine a cui è stato somministrato il vaccino per giorno. |
+| Personale scolastico | integer | Totale dei soggetti appartenenti alla categoria del personale scolastico a cui è stato somministrato il vaccino per giorno. |
+
+
+
+
+
+
+
+
+
+
+
 
 ## Licenza
 
