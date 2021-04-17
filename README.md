@@ -89,7 +89,7 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 
 | Campo | Tipo di dati | Descrizione |
 | --- | --- | --- |
-| Data | string |  Data in cui si registrano nuovi casi. |
+| Data | string |  Giorno in cui si registrano nuovi casi. |
 | Nuovi casi | integer | Numero totale di persone risultate positive nelle ultime 24 ore. |
 | Media 7 giorni | integer | Vengono considerati i dati di un determinato periodo e ne viene calcolata la media sommandoli fra loro e dividendo per il numero totale di valori.|
 | Deceduti | integer | Numero totale di persone morte e risultate positive al COVID-19. |
@@ -127,14 +127,14 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 
 | Campo | Tipo di dati | Descrizione |
 | --- | --- | --- |
-| Data | string | Giorno in cui vengono somministrate le dosi. |
+| Data | string | Giorno in cui è avvenuta la somministrazione. |
 | Somministrazioni | integer | Numero totale di somministrazioni per giorno. |
 
 **somministrazioni_giornaliere_per_categoria**
 
 | Campo | Tipo di dati | Descrizione |
 | --- | --- | --- |
-| Data | string | Giorno in cui vengono somministrate le dosi. |
+| Data | string | Giorno in cui è avvenuta la somministrazione. |
 | Operatori sanitari/sociosanitari | integer | Totale dei soggetti appartenenti alla categoria degli operatori sanitari e sociosanitari a cui è stato somministrato il vaccino per giorno. |
 | Personale non sanitario | integer | Totale dei soggetti appartenenti alla categoria del personale non sanitario a cui è stato somministrato il vaccino per giorno. |
 | Altro | integer | Numero somministrazioni altra categoria di rischio prevalente per giorno. |
@@ -144,7 +144,20 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | Personale scolastico | integer | Totale dei soggetti appartenenti alla categoria del personale scolastico a cui è stato somministrato il vaccino per giorno. |
 
 
+**somministrazioni_giornaliere_per_eta_prima_dose**
 
+| Campo | Tipo di dati | Descrizione |
+| --- | --- | --- |
+| Data | string | Giorno in cui è avvenuta la somministrazione. |
+| 16-19 | integer | Totale dei soggetti appartenenti alla fascia d'età 16-19 a cui è stato somministrata la prima dose di vaccino per giorno. |
+| 20-29 | integer | Totale dei soggetti appartenenti alla fascia d'età 20-29 a cui è stato somministrata la prima dose di vaccino per giorno. |
+| 30-39 | integer | Totale dei soggetti appartenenti alla fascia d'età 30-39 a cui è stato somministrata la prima dose di vaccino per giorno. |
+| 40-49 | integer | Totale dei soggetti appartenenti alla fascia d'età 40-49 a cui è stato somministrata la prima dose di vaccino per giorno. |
+| 50-59 | integer | Totale dei soggetti appartenenti alla fascia d'età 50-59 a cui è stato somministrata la prima dose di vaccino per giorno. |
+| 60-69 | integer | Totale dei soggetti appartenenti alla fascia d'età 60-69 a cui è stato somministrata la prima dose di vaccino per giorno. |
+| 70-79 | integer | Totale dei soggetti appartenenti alla fascia d'età 70-79 a cui è stato somministrata la prima dose di vaccino per giorno. |
+| 80-89 | integer | Totale dei soggetti appartenenti alla fascia d'età 80-89 a cui è stato somministrata la prima dose di vaccino per giorno. |
+| 90+ | integer | Totale dei soggetti appartenenti alla fascia d'età 90+ a cui è stato somministrata la prima dose di vaccino per giorno. |
 
 
 
