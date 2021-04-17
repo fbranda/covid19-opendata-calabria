@@ -159,6 +159,27 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | 80-89 | integer | Totale dei soggetti appartenenti alla fascia d'età 80-89 a cui è stato somministrata la prima dose di vaccino per giorno. |
 | 90+ | integer | Totale dei soggetti appartenenti alla fascia d'età 90+ a cui è stato somministrata la prima dose di vaccino per giorno. |
 
+**somministrazioni_giornaliere_per_tipo_dose**
+
+| Campo | Tipo di dati | Descrizione |
+| --- | --- | --- |
+| Data | string | Giorno in cui è avvenuta la somministrazione. |
+| Prima dose | integer | Numero prime somministrazioni per giorno. |
+| Seconda dose | integer | Numero seconde somministrazioni per giorno. |
+
+**somministrazioni_per_eta_prima_dose**:
+
+| Campo | Tipo di dati | Descrizione |
+| --- | --- | --- |
+| Età | string | Fascia d'età a cui è stata somministrata la prima dose di vaccino. |
+| Vaccinazioni | integer | Percentuale di popolazione che ha ricevuto solo la prima dose di vaccino per età. |
+
+**somministrazioni_per_eta_seconda_dose**:
+
+| Campo | Tipo di dati | Descrizione |
+| --- | --- | --- |
+| Età | string | Fascia d'età a cui è stata somministrata la prima dose di vaccino. |
+| Vaccinazioni | integer | Percentuale di popolazione che ha completato il ciclo vaccinale (2 dosi di vaccino) per età. |
 
 
 
