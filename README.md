@@ -56,6 +56,7 @@ covid19-opendata-calabria/
 │   │   ├── somministrazioni_giornaliere_per_categoria.csv
 │   │   ├── somministrazioni_giornaliere_per_eta_prima_dose.csv
 │   │   ├── somministrazioni_giornaliere_tipo_dose.csv
+│   │   ├── somministrazioni_per_categoria_in_percentuale.csv
 │   │   ├── somministrazioni_per_eta_prima_dose.csv
 │   │   ├── somministrazioni_per_eta_seconda_dose.csv
 
@@ -77,6 +78,7 @@ Nella cartella dati si possono trovare le seguenti tabelle in formato xlsx e csv
 *   **somministrazioni_giornaliere_per_categoria**: dati sul numero assoluto di dosi di vaccino somministrate al giorno per categoria di popolazione.
 *   **somministrazioni_giornaliere_per_eta_prima_dose**: dati sul numero assoluto di dosi di vaccino somministrate (prima dose) al giorno per età.
 *   **somministrazioni_giornaliere_per_tipo_dose**: dati sul numero assoluto di dosi somministrate al giorno, suddiviso per prima dose e seconda dose.
+*   **somministrazioni_per_categoria_in_percentuale**: dati sulla percentuale di dosi di vaccino somministrate per categoria di popolazione.
 *   **somministrazioni_per_eta_prima_dose**: dati sulla percentuale di popolazione che ha ricevuto solo la prima dose di vaccino. 
 *   **somministrazioni_per_eta_seconda_dose**: dati sulla percentuale di popolazione che ha completato il ciclo vaccinale (2 dosi di vaccino). 
 
@@ -158,6 +160,13 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | 70-79 | integer | Totale dei soggetti appartenenti alla fascia d'età 70-79 a cui è stato somministrata la prima dose di vaccino per giorno. |
 | 80-89 | integer | Totale dei soggetti appartenenti alla fascia d'età 80-89 a cui è stato somministrata la prima dose di vaccino per giorno. |
 | 90+ | integer | Totale dei soggetti appartenenti alla fascia d'età 90+ a cui è stato somministrata la prima dose di vaccino per giorno. |
+
+**somministrazioni_giornaliere_per_tipo_dose**
+
+| Campo | Tipo di dati | Descrizione |
+| --- | --- | --- |
+| Categoria | string | Tipologia di categoria definita dal Piano vaccinale. |
+| Percentuale | integer | Percentuale di dosi somministrate (sul totale delle dosi somministrate) suddivise per categoria. |
 
 **somministrazioni_giornaliere_per_tipo_dose**
 
