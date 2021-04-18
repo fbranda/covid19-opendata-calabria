@@ -26,9 +26,11 @@ covid19-opendata-calabria/
 │   │   ├── Catanzaro
 │   │       ├── Catanzaro.xlsx
 │   │       ├── Catanzaro.csv
+│   │       ├── Incidenza_per_centomila_abitanti_Catanzaro.csv
 │   │   ├── Cosenza
 │   │       ├── Cosenza.xlsx
 │   │       ├── Cosenza.csv
+│   │       ├── Incidenza_per_centomila_abitanti_Cosenza.csv
 │   │       ├── comuni
 │   │           ├── Marzo_2020
 │   │               ├── ASP_CS_2020-03-24.csv
@@ -39,17 +41,20 @@ covid19-opendata-calabria/
 │   │           ...
 │   │   ├── Crotone
 │   │       ├── Crotone.xlsx
-│   │       ├── Catanzaro.csv
+│   │       ├── Crotone.csv
+│   │       ├── Incidenza_per_centomila_abitanti_Catanzaro.csv
 │   │   ├── Reggio Calabria
 │   │       ├── Reggio Calabria.xlsx
 │   │       ├── Reggio Calabria.csv
+│   │       ├── Incidenza_per_centomila_abitanti_regione_Reggio.csv
 │   │   ├── Vibo Valentia
 │   │       ├── Vibo Valentia.xlsx
 │   │       ├── Vibo Valentia.csv
+│   │       ├── Incidenza_per_centomila_abitanti_Vibo.csv
 │   ├── regione
 │   │   ├── Calabria.xlsx
 │   │   ├── Calabria.csv
-│   │   ├── Incidenza_per_centomila_abitanti.csv
+│   │   ├── Incidenza_per_centomila_abitanti_regione.csv
 │   ├── vaccinazione
 │   │   ├── dosi_consegnate_consumate_per_settimana.csv
 │   │   ├── dosi_consegnate_per_settimana.csv
@@ -68,11 +73,16 @@ covid19-opendata-calabria/
 Nella cartella dati si possono trovare le seguenti tabelle in formato xlsx e csv: 
 *   **Calabria**: dati sull'andamento del COVID-19 a livello regionale. 
 *   **Incidenza_per_centomila_abitanti_regione**: dati sul numero di nuovi casi positivi al COVID-19 ogni 100.000 abitanti a livello regionale.
-*   **Catanzaro**: dati sull'andamento del COVID-19 a Catanzaro.
-*   **Cosenza**: dati sull'andamento del COVID-19 a Cosenza.
-*   **Crotone**: dati sull'andamento del COVID-19 a Crotone.
-*   **Reggio Calabria**: dati sull'andamento del COVID-19 a Reggio Calabria.
-*   **Vibo Valentia**: dati sull'andamento del COVID-19 a Vibo Valentia.
+*   **Incidenza_per_centomila_abitanti_Catanzaro**: dati sul numero di nuovi casi positivi al COVID-19 ogni 100.000 abitanti nella provincia di Catanzaro.
+*   **Incidenza_per_centomila_abitanti_Cosenza**: dati sul numero di nuovi casi positivi al COVID-19 ogni 100.000 abitanti nella provincia di Cosenza.
+*   **Incidenza_per_centomila_abitanti_Crotone**: dati sul numero di nuovi casi positivi al COVID-19 ogni 100.000 abitanti nella provincia di Crotone.
+*   **Incidenza_per_centomila_abitanti_Reggio**: dati sul numero di nuovi casi positivi al COVID-19 ogni 100.000 abitanti nella provincia di Reggio Calabria.
+*   **Incidenza_per_centomila_abitanti_Vibo**: dati sul numero di nuovi casi positivi al COVID-19 ogni 100.000 abitanti nella provincia di Vibo Valentia.
+*   **Catanzaro**: dati sull'andamento del COVID-19 nella provincia di Catanzaro.
+*   **Cosenza**: dati sull'andamento del COVID-19 nella provincia di Cosenza.
+*   **Crotone**: dati sull'andamento del COVID-19 nella provincia di Crotone.
+*   **Reggio Calabria**: dati sull'andamento del COVID-19 nella provincia di Reggio Calabria.
+*   **Vibo Valentia**: dati sull'andamento del COVID-19 nella provincia di Vibo Valentia.
 *   **ASP_PROVINCIA_ANNO-MESE-GIORNO**: dati sull'andamento del COVID-19 suddivisi per data e comune. 
 *   **dosi_consegnate_per_settimana**: dati sul numero di dosi dei vaccini anti-COVID-19 consegnate settimanalmente.
 *   **dosi_consegnate_consumate_per_settimana**: dati sul numero di dosi di vaccino consegnate e quelle somministrate su base settimanale.
@@ -102,7 +112,7 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | Terapia intensiva | integer | Numero totale di posti letto di TI occupati da pazienti positivi al COVID-19. |
 
 
-**Incidenza_per_centomila_abitanti_regione**
+**Incidenza_per_centomila_abitanti_regione** - **Incidenza_per_centomila_abitanti_Catanzaro** - **Incidenza_per_centomila_abitanti_Cosenza** - **Incidenza_per_centomila_abitanti_Crotone** - **Incidenza_per_centomila_abitanti_Reggio** - **Incidenza_per_centomila_abitanti_Vibo**
 
 | Campo | Tipo di dati | Descrizione |
 | --- | --- | --- |
