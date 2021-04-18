@@ -101,6 +101,16 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | Ricoverati | integer | Numero totale di persone ricoverate in ospedale con sintomi connessi al COVID-19. |
 | Terapia intensiva | integer | Numero totale di posti letto di TI occupati da pazienti positivi al COVID-19. |
 
+
+**Incidenza_per_centomila_abitanti_regione**
+
+| Campo | Tipo di dati | Descrizione |
+| --- | --- | --- |
+| Data | string |  Settimana di riferimento. |
+| Casi per settimana | integer |  Numero di persone positive al COVID-19 per settimana. |
+| N. abitanti | integer |  Popolazione Regione Calabria (31/12/2019 - Istat). |
+| Casi per 100.000 abitanti | integer |  Numero di persone positive al COVID-19 ogni 100.000 abitanti. |
+
 **ASP_PROVINCIA_ANNO-MESE-GIORNO**
 
 | Campo | Tipo di dati | Descrizione |
