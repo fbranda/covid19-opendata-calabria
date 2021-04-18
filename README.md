@@ -49,6 +49,7 @@ covid19-opendata-calabria/
 │   ├── regione
 │   │   ├── Calabria.xlsx
 │   │   ├── Calabria.csv
+│   │   ├── Incidenza_per_centomila_abitanti.csv
 │   ├── vaccinazione
 │   │   ├── dosi_consegnate_consumate_per_settimana.csv
 │   │   ├── dosi_consegnate_per_settimana.csv
@@ -66,6 +67,7 @@ covid19-opendata-calabria/
 
 Nella cartella dati si possono trovare le seguenti tabelle in formato xlsx e csv: 
 *   **Calabria**: dati sull'andamento del COVID-19 a livello regionale. 
+*   **Incidenza_per_centomila_abitanti_regione**: dati sul numero di nuovi casi positivi al COVID-19 ogni 100.000 abitanti a livello regionale.
 *   **Catanzaro**: dati sull'andamento del COVID-19 a Catanzaro.
 *   **Cosenza**: dati sull'andamento del COVID-19 a Cosenza.
 *   **Crotone**: dati sull'andamento del COVID-19 a Crotone.
