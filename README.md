@@ -58,6 +58,7 @@ covid19-opendata-calabria/
 │   ├── vaccinazione
 │   │   ├── dosi_consegnate_consumate_per_settimana.csv
 │   │   ├── dosi_consegnate_per_settimana.csv
+│   │   ├── dosi_somministrate_per_centomila_abitanti.csv
 │   │   ├── somministrazioni_giornaliere.csv
 │   │   ├── somministrazioni_giornaliere_per_categoria.csv
 │   │   ├── somministrazioni_giornaliere_per_eta_prima_dose.csv
@@ -72,12 +73,12 @@ covid19-opendata-calabria/
 
 Nella cartella dati si possono trovare le seguenti tabelle in formato xlsx e csv: 
 *   **Calabria**: dati sull'andamento del COVID-19 a livello regionale. 
-*   **Incidenza_per_centomila_abitanti_regione**: dati sul numero di nuovi casi positivi al COVID-19 ogni 100.000 abitanti a livello regionale.
-*   **Incidenza_per_centomila_abitanti_Catanzaro**: dati sul numero di nuovi casi positivi al COVID-19 ogni 100.000 abitanti nella provincia di Catanzaro.
-*   **Incidenza_per_centomila_abitanti_Cosenza**: dati sul numero di nuovi casi positivi al COVID-19 ogni 100.000 abitanti nella provincia di Cosenza.
-*   **Incidenza_per_centomila_abitanti_Crotone**: dati sul numero di nuovi casi positivi al COVID-19 ogni 100.000 abitanti nella provincia di Crotone.
-*   **Incidenza_per_centomila_abitanti_Reggio**: dati sul numero di nuovi casi positivi al COVID-19 ogni 100.000 abitanti nella provincia di Reggio Calabria.
-*   **Incidenza_per_centomila_abitanti_Vibo**: dati sul numero di nuovi casi positivi al COVID-19 ogni 100.000 abitanti nella provincia di Vibo Valentia.
+*   **Incidenza_per_centomila_abitanti_regione**: dati sul numero di nuovi casi positivi al COVID-19 ogni 100.000 abitanti a livello regionale su base settimanale.
+*   **Incidenza_per_centomila_abitanti_Catanzaro**: dati sul numero di nuovi casi positivi al COVID-19 ogni 100.000 abitanti nella provincia di Catanzaro su base settimanale.
+*   **Incidenza_per_centomila_abitanti_Cosenza**: dati sul numero di nuovi casi positivi al COVID-19 ogni 100.000 abitanti nella provincia di Cosenza su base settimanale.
+*   **Incidenza_per_centomila_abitanti_Crotone**: dati sul numero di nuovi casi positivi al COVID-19 ogni 100.000 abitanti nella provincia di Crotone su base settimanale.
+*   **Incidenza_per_centomila_abitanti_Reggio**: dati sul numero di nuovi casi positivi al COVID-19 ogni 100.000 abitanti nella provincia di Reggio Calabria su base settimanale.
+*   **Incidenza_per_centomila_abitanti_Vibo**: dati sul numero di nuovi casi positivi al COVID-19 ogni 100.000 abitanti nella provincia di Vibo Valentia su base settimanale.
 *   **Catanzaro**: dati sull'andamento del COVID-19 nella provincia di Catanzaro.
 *   **Cosenza**: dati sull'andamento del COVID-19 nella provincia di Cosenza.
 *   **Crotone**: dati sull'andamento del COVID-19 nella provincia di Crotone.
@@ -86,6 +87,7 @@ Nella cartella dati si possono trovare le seguenti tabelle in formato xlsx e csv
 *   **ASP_PROVINCIA_ANNO-MESE-GIORNO**: dati sull'andamento del COVID-19 suddivisi per data e comune. 
 *   **dosi_consegnate_per_settimana**: dati sul numero di dosi dei vaccini anti-COVID-19 consegnate settimanalmente.
 *   **dosi_consegnate_consumate_per_settimana**: dati sul numero di dosi di vaccino consegnate e quelle somministrate su base settimanale.
+*   **dosi_somministrate_per_centomila_abitanti**: dati sul numero di dosi di vaccino somministrate ogni 100.000 abitanti su base settimanale.
 *   **somministrazioni_giornaliere**: dati sul numero assoluto di dosi somministrate al giorno.
 *   **somministrazioni_giornaliere_per_categoria**: dati sul numero assoluto di dosi di vaccino somministrate al giorno per categoria di popolazione.
 *   **somministrazioni_giornaliere_per_eta_prima_dose**: dati sul numero assoluto di dosi di vaccino somministrate (prima dose) al giorno per età.
@@ -138,6 +140,15 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | --- | --- | --- |
 | Data | string | Settimana di riferimento. |
 | Dosi consegnate | integer | Numero totale di dosi consegnate per settimana. |
+
+**dosi_somministrate_per_centomila_abitanti**
+
+| Campo | Tipo di dati | Descrizione |
+| --- | --- | --- |
+| Data | string |  Settimana di riferimento. |
+| Dosi somministrate | integer |  Numero di dosi somministrate per settimana. |
+| N. abitanti | integer |  Popolazione Regione Calabria (31/12/2019 - Istat). |
+| Dosi per 100.000 abitanti | integer |  Numero di dosi somministrate ogni 100.000 abitanti. |
 
 **dosi_consegnate_consumate_per_settimana**
 
