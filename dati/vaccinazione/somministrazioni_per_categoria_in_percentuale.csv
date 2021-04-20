@@ -1,8 +1,11 @@
 Categoria;Dosi somministrate;Dosi totali somministrate;Percentuale
-Operatori sanitari/sociosanitari;81.570;397.721;20,51%
-Personale non sanitario;2.663;397.721;0,67%
-Altro;144.267;397.721;36,27%
-Ospiti RSA;23.463;397.721;5,90%
-Over 80;110.290;397.721;27,73%
-Forze armate;11.423;397.721;2,87%
-Personale scolastico;24.045;397.721;6,05%
+Operatori sanitari/sociosanitari;81.873;406.187;20,16%
+Personale non sanitario;21.706;406.187;5,34%
+Ospiti RSA;24.052;406.187;5,92%
+Personale scolastico;24.227;406.187;5,96%
+60 - 69;6.472;406.187;1,59%
+70 - 79;20.727;406.187;5,10%
+Over 80;118.052;406.187;29,06%
+Soggetti fragili;83.447;406.187;20,54%
+Forze armate;13.839;406.187;3,41%
+Altro;11.792;406.187;2,90%
