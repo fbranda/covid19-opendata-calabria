@@ -170,13 +170,16 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | Campo | Tipo di dati | Descrizione |
 | --- | --- | --- |
 | Data | string | Giorno in cui è avvenuta la somministrazione. |
-| Operatori sanitari/sociosanitari | integer | Totale dei soggetti appartenenti alla categoria degli operatori sanitari e sociosanitari a cui è stato somministrato il vaccino per giorno. |
-| Personale non sanitario | integer | Totale dei soggetti appartenenti alla categoria del personale non sanitario a cui è stato somministrato il vaccino per giorno. |
-| Altro | integer | Numero somministrazioni altra categoria di rischio prevalente per giorno. |
-| Ospiti RSA | integer | Totale dei soggetti ospiti della struttura residenziale a cui è stato somministrato il vaccino per giorno. |
-| Over 80 | integer | Numero somministrazioni categoria di rischio prevalente over 80 per giorno. |
-| Forze armate | integer | Totale dei soggetti appartenenti alla categoria delle forze dell'ordine a cui è stato somministrato il vaccino per giorno. |
-| Personale scolastico | integer | Totale dei soggetti appartenenti alla categoria del personale scolastico a cui è stato somministrato il vaccino per giorno. |
+| Operatori sanitari/sociosanitari | integer | Numero di somministrazioni effettuate agli operatori sanitari e sociosanitari indicate per giorno. |
+| Personale non sanitario | integer | Numero di somministrazioni effettuate al personale non sanitario impiegato in strutture sanitarie e in attività lavorativa a rischio indicate per giorno. |
+| Ospiti RSA | integer | Numero di somministrazioni effettuate ai soggetti ospiti di comunità residenziali indicate per giorno. |
+| Personale scolastico | integer | Numero di somministrazioni effettuate al personale scolastico indicate per giorno. |
+| 60 - 69 | integer | Numero somministrazioni effettuate ai soggetti con età anagrafica compresa tra 60 e 69 anni, non appartenenti ad altre categorie prioritarie ma ricevono la somministrazione esclusivamente sul criterio dell'età anagrafica, indicate per giorno. |
+| 70 - 79 | integer | Numero somministrazioni effettuate ai soggetti con età anagrafica compresa tra 70 e 79 anni, non appartenenti ad altre categorie prioritarie ma ricevono la somministrazione esclusivamente sul criterio dell'età anagrafica, indicate per giorno. |
+| Over 80 | integer | Numero somministrazioni effettuate ai soggetti con età anagrafica maggiore o uguale a 80 anni, non appartenenti ad altre categorie prioritarie ma ricevono la somministrazione esclusivamente sul criterio dell'età anagrafica, indicate per giorno. |
+| Soggetti fragili | integer | Numero di somministrazioni effettuate ai soggetti fragili e loro caregiver indicate per giorno. |
+| Forze armate | integer | Numero di somministrazioni effettuate al personale del comparto difesa e sicurezza indicate per giorno. |
+| Altro | integer | Numero di somministrazioni effettuate ai soggetti non riconducibili alle precedenti categorie indicate per giorno. |
 
 
 **somministrazioni_giornaliere_per_eta_prima_dose**
