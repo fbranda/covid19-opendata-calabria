@@ -155,14 +155,14 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | Campo | Tipo di dati | Descrizione |
 | --- | --- | --- |
 | Data | string |  Settimana di riferimento. |
-| Casi per settimana | integer |  Numero dei decessi di persone positive al COVID-19 su base settimanale. |
+| Decessi per settimana | integer |  Numero dei decessi di persone positive al COVID-19 su base settimanale. |
 
 **Trend_settimanale_guariti** 
 
 | Campo | Tipo di dati | Descrizione |
 | --- | --- | --- |
 | Data | string |  Settimana di riferimento. |
-| Casi per settimana | integer |  Numero dei guariti di persone positive al COVID-19 su base settimanale. |
+| Guariti per settimana | integer |  Numero dei guariti di persone positive al COVID-19 su base settimanale. |
 
 **ASP_PROVINCIA_ANNO-MESE-GIORNO**
 
