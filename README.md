@@ -27,10 +27,17 @@ covid19-opendata-calabria/
 │   │       ├── Catanzaro.xlsx
 │   │       ├── Catanzaro.csv
 │   │       ├── Incidenza_per_centomila_abitanti_Catanzaro.csv
+│   │       ├── Trend_settimanale_nuovi_casi.csv
+│   │       ├── Trend_settimanale_decessi.csv
+│   │       ├── Trend_settimanale_guariti.csv
+│   │
 │   │   ├── Cosenza
 │   │       ├── Cosenza.xlsx
 │   │       ├── Cosenza.csv
 │   │       ├── Incidenza_per_centomila_abitanti_Cosenza.csv
+│   │       ├── Trend_settimanale_nuovi_casi.csv
+│   │       ├── Trend_settimanale_decessi.csv
+│   │       ├── Trend_settimanale_guariti.csv
 │   │       ├── comuni
 │   │           ├── Marzo_2020
 │   │               ├── ASP_CS_2020-03-24.csv
@@ -39,22 +46,39 @@ covid19-opendata-calabria/
 │   │               ├── ASP_CS_2020-04-01.csv
 │   │               ...
 │   │           ...
+│   │
 │   │   ├── Crotone
 │   │       ├── Crotone.xlsx
 │   │       ├── Crotone.csv
 │   │       ├── Incidenza_per_centomila_abitanti_Catanzaro.csv
+│   │       ├── Trend_settimanale_nuovi_casi.csv
+│   │       ├── Trend_settimanale_decessi.csv
+│   │       ├── Trend_settimanale_guariti.csv
+│   │
 │   │   ├── Reggio Calabria
 │   │       ├── Reggio Calabria.xlsx
 │   │       ├── Reggio Calabria.csv
 │   │       ├── Incidenza_per_centomila_abitanti_regione_Reggio.csv
+│   │       ├── Trend_settimanale_nuovi_casi.csv
+│   │       ├── Trend_settimanale_decessi.csv
+│   │       ├── Trend_settimanale_guariti.csv
+│   │
 │   │   ├── Vibo Valentia
 │   │       ├── Vibo Valentia.xlsx
 │   │       ├── Vibo Valentia.csv
 │   │       ├── Incidenza_per_centomila_abitanti_Vibo.csv
+│   │       ├── Trend_settimanale_nuovi_casi.csv
+│   │       ├── Trend_settimanale_decessi.csv
+│   │       ├── Trend_settimanale_guariti.csv
+│   │
 │   ├── regione
 │   │   ├── Calabria.xlsx
 │   │   ├── Calabria.csv
 │   │   ├── Incidenza_per_centomila_abitanti_regione.csv
+│   │   ├── Trend_settimanale_nuovi_casi.csv
+│   │   ├── Trend_settimanale_decessi.csv
+│   │   ├── Trend_settimanale_guariti.csv
+│   │
 │   ├── vaccinazione
 │   │   ├── dosi_consegnate_consumate_per_settimana.csv
 │   │   ├── dosi_consegnate_per_settimana.csv
@@ -79,6 +103,9 @@ Nella cartella dati si possono trovare le seguenti tabelle in formato xlsx e csv
 *   **Incidenza_per_centomila_abitanti_Crotone**: dati sul numero di nuovi casi positivi al COVID-19 ogni 100.000 abitanti nella provincia di Crotone su base settimanale.
 *   **Incidenza_per_centomila_abitanti_Reggio**: dati sul numero di nuovi casi positivi al COVID-19 ogni 100.000 abitanti nella provincia di Reggio Calabria su base settimanale.
 *   **Incidenza_per_centomila_abitanti_Vibo**: dati sul numero di nuovi casi positivi al COVID-19 ogni 100.000 abitanti nella provincia di Vibo Valentia su base settimanale.
+*   **Trend_settimanale_nuovi_casi**: dati sul numero di casi positivi al COVID-19 su base settimanale.
+*   **Trend_settimanale_decessi**: dati sul numero dei decessi di persone positive al COVID-19 su base settimanale. 
+*   **Trend_settimanale_guariti**: dati sul numero dei guariti di persone positive al COVID-19 su base settimanale. 
 *   **Catanzaro**: dati sull'andamento del COVID-19 nella provincia di Catanzaro.
 *   **Cosenza**: dati sull'andamento del COVID-19 nella provincia di Cosenza.
 *   **Crotone**: dati sull'andamento del COVID-19 nella provincia di Crotone.
@@ -101,7 +128,7 @@ Nella cartella dati si possono trovare le seguenti tabelle in formato xlsx e csv
 
 I campi di ogni tabella sono schematizzati come riportato di seguito:
 
-**Calabria** - **Catanzaro** - **Cosenza** - **Crotone** - **Reggio Calabria** - **Vibo Valentia**
+**Calabria/Catanzaro/Cosenza/Crotone/Reggio Calabria/Vibo Valentia**
 
 | Campo | Tipo di dati | Descrizione |
 | --- | --- | --- |
@@ -114,14 +141,33 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | Terapia intensiva | integer | Numero totale di posti letto di TI occupati da pazienti positivi al COVID-19. |
 
 
-**Incidenza_per_centomila_abitanti_regione** - **Incidenza_per_centomila_abitanti_Catanzaro** - **Incidenza_per_centomila_abitanti_Cosenza** - **Incidenza_per_centomila_abitanti_Crotone** - **Incidenza_per_centomila_abitanti_Reggio** - **Incidenza_per_centomila_abitanti_Vibo**
+**Incidenza_per_centomila_abitanti_regione/Catanzaro/Cosenza/Crotone/Reggio/Vibo** 
 
 | Campo | Tipo di dati | Descrizione |
 | --- | --- | --- |
 | Data | string |  Settimana di riferimento. |
-| Casi per settimana | integer |  Numero di persone positive al COVID-19 per settimana. |
-| N. abitanti | integer |  Popolazione Regione Calabria (31/12/2019 - Istat). |
-| Casi per 100.000 abitanti | integer |  Numero di persone positive al COVID-19 ogni 100.000 abitanti. |
+| Casi per settimana | integer |  Numero di persone positive al COVID-19 ogni 100.000 abitanti su base settimanale. |
+
+**Trend_settimanale_nuovi_casi** 
+
+| Campo | Tipo di dati | Descrizione |
+| --- | --- | --- |
+| Data | string |  Settimana di riferimento. |
+| Casi per settimana | integer |  Numero di persone positive al COVID-19 su base settimanale. |
+
+**Trend_settimanale_decessi** 
+
+| Campo | Tipo di dati | Descrizione |
+| --- | --- | --- |
+| Data | string |  Settimana di riferimento. |
+| Casi per settimana | integer |  Numero dei decessi di persone positive al COVID-19 su base settimanale. |
+
+**Trend_settimanale_guariti** 
+
+| Campo | Tipo di dati | Descrizione |
+| --- | --- | --- |
+| Data | string |  Settimana di riferimento. |
+| Casi per settimana | integer |  Numero dei guariti di persone positive al COVID-19 su base settimanale. |
 
 **ASP_PROVINCIA_ANNO-MESE-GIORNO**
 
