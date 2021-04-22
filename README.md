@@ -26,7 +26,7 @@ covid19-opendata-calabria/
 │   │   ├── Catanzaro
 │   │       ├── Catanzaro.xlsx
 │   │       ├── Catanzaro.csv
-│   │       ├── Incidenza_per_centomila_abitanti_Catanzaro.csv
+│   │       ├── Incidenza_per_centomila_abitanti.csv
 │   │       ├── Trend_settimanale_nuovi_casi.csv
 │   │       ├── Trend_settimanale_decessi.csv
 │   │       ├── Trend_settimanale_guariti.csv
@@ -34,7 +34,7 @@ covid19-opendata-calabria/
 │   │   ├── Cosenza
 │   │       ├── Cosenza.xlsx
 │   │       ├── Cosenza.csv
-│   │       ├── Incidenza_per_centomila_abitanti_Cosenza.csv
+│   │       ├── Incidenza_per_centomila_abitanti.csv
 │   │       ├── Trend_settimanale_nuovi_casi.csv
 │   │       ├── Trend_settimanale_decessi.csv
 │   │       ├── Trend_settimanale_guariti.csv
@@ -50,7 +50,7 @@ covid19-opendata-calabria/
 │   │   ├── Crotone
 │   │       ├── Crotone.xlsx
 │   │       ├── Crotone.csv
-│   │       ├── Incidenza_per_centomila_abitanti_Catanzaro.csv
+│   │       ├── Incidenza_per_centomila_abitanti.csv
 │   │       ├── Trend_settimanale_nuovi_casi.csv
 │   │       ├── Trend_settimanale_decessi.csv
 │   │       ├── Trend_settimanale_guariti.csv
@@ -58,7 +58,7 @@ covid19-opendata-calabria/
 │   │   ├── Reggio Calabria
 │   │       ├── Reggio Calabria.xlsx
 │   │       ├── Reggio Calabria.csv
-│   │       ├── Incidenza_per_centomila_abitanti_regione_Reggio.csv
+│   │       ├── Incidenza_per_centomila_abitanti.csv
 │   │       ├── Trend_settimanale_nuovi_casi.csv
 │   │       ├── Trend_settimanale_decessi.csv
 │   │       ├── Trend_settimanale_guariti.csv
@@ -66,7 +66,7 @@ covid19-opendata-calabria/
 │   │   ├── Vibo Valentia
 │   │       ├── Vibo Valentia.xlsx
 │   │       ├── Vibo Valentia.csv
-│   │       ├── Incidenza_per_centomila_abitanti_Vibo.csv
+│   │       ├── Incidenza_per_centomila_abitanti.csv
 │   │       ├── Trend_settimanale_nuovi_casi.csv
 │   │       ├── Trend_settimanale_decessi.csv
 │   │       ├── Trend_settimanale_guariti.csv
@@ -74,7 +74,7 @@ covid19-opendata-calabria/
 │   ├── regione
 │   │   ├── Calabria.xlsx
 │   │   ├── Calabria.csv
-│   │   ├── Incidenza_per_centomila_abitanti_regione.csv
+│   │   ├── Incidenza_per_centomila_abitanti.csv
 │   │   ├── Trend_settimanale_nuovi_casi.csv
 │   │   ├── Trend_settimanale_decessi.csv
 │   │   ├── Trend_settimanale_guariti.csv
@@ -97,12 +97,7 @@ covid19-opendata-calabria/
 
 Nella cartella dati si possono trovare le seguenti tabelle in formato xlsx e csv: 
 *   **Calabria**: dati sull'andamento del COVID-19 a livello regionale. 
-*   **Incidenza_per_centomila_abitanti_regione**: dati sul numero di nuovi casi positivi al COVID-19 ogni 100.000 abitanti a livello regionale su base settimanale.
-*   **Incidenza_per_centomila_abitanti_Catanzaro**: dati sul numero di nuovi casi positivi al COVID-19 ogni 100.000 abitanti nella provincia di Catanzaro su base settimanale.
-*   **Incidenza_per_centomila_abitanti_Cosenza**: dati sul numero di nuovi casi positivi al COVID-19 ogni 100.000 abitanti nella provincia di Cosenza su base settimanale.
-*   **Incidenza_per_centomila_abitanti_Crotone**: dati sul numero di nuovi casi positivi al COVID-19 ogni 100.000 abitanti nella provincia di Crotone su base settimanale.
-*   **Incidenza_per_centomila_abitanti_Reggio**: dati sul numero di nuovi casi positivi al COVID-19 ogni 100.000 abitanti nella provincia di Reggio Calabria su base settimanale.
-*   **Incidenza_per_centomila_abitanti_Vibo**: dati sul numero di nuovi casi positivi al COVID-19 ogni 100.000 abitanti nella provincia di Vibo Valentia su base settimanale.
+*   **Incidenza_per_centomila_abitanti**: dati sul numero di nuovi casi positivi al COVID-19 ogni 100.000 abitanti su base settimanale.
 *   **Trend_settimanale_nuovi_casi**: dati sul numero di casi positivi al COVID-19 su base settimanale.
 *   **Trend_settimanale_decessi**: dati sul numero dei decessi di persone positive al COVID-19 su base settimanale. 
 *   **Trend_settimanale_guariti**: dati sul numero dei guariti di persone positive al COVID-19 su base settimanale. 
@@ -141,7 +136,7 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | Terapia intensiva | integer | Numero totale di posti letto di TI occupati da pazienti positivi al COVID-19. |
 
 
-**Incidenza_per_centomila_abitanti_regione/Catanzaro/Cosenza/Crotone/Reggio/Vibo** 
+**Incidenza_per_centomila_abitanti** 
 
 | Campo | Tipo di dati | Descrizione |
 | --- | --- | --- |
