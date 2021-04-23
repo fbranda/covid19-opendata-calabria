@@ -59,7 +59,6 @@ covid19-opendata-calabria/
 │   │       ├── Trend_settimanale_decessi.csv
 │   │       ├── Trend_settimanale_guariti.csv
 │   │       ├── Trend_settimanale_ricoveri.csv
-│   │       ├── Trend_settimanale_terapie_intensive.csv
 │   │
 │   │   ├── Reggio Calabria
 │   │       ├── Reggio Calabria.xlsx
@@ -79,7 +78,6 @@ covid19-opendata-calabria/
 │   │       ├── Trend_settimanale_decessi.csv
 │   │       ├── Trend_settimanale_guariti.csv
 │   │       ├── Trend_settimanale_ricoveri.csv
-│   │       ├── Trend_settimanale_terapie_intensive.csv
 │   │
 │   ├── regione
 │   │   ├── Calabria.xlsx
