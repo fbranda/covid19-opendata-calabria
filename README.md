@@ -30,6 +30,8 @@ covid19-opendata-calabria/
 │   │       ├── Trend_settimanale_nuovi_casi.csv
 │   │       ├── Trend_settimanale_decessi.csv
 │   │       ├── Trend_settimanale_guariti.csv
+│   │       ├── Trend_settimanale_ricoveri.csv
+│   │       ├── Trend_settimanale_terapie_intensive.csv
 │   │
 │   │   ├── Cosenza
 │   │       ├── Cosenza.xlsx
@@ -38,6 +40,8 @@ covid19-opendata-calabria/
 │   │       ├── Trend_settimanale_nuovi_casi.csv
 │   │       ├── Trend_settimanale_decessi.csv
 │   │       ├── Trend_settimanale_guariti.csv
+│   │       ├── Trend_settimanale_ricoveri.csv
+│   │       ├── Trend_settimanale_terapie_intensive.csv
 │   │       ├── comuni
 │   │           ├── Marzo_2020
 │   │               ├── ASP_CS_2020-03-24.csv
@@ -54,6 +58,8 @@ covid19-opendata-calabria/
 │   │       ├── Trend_settimanale_nuovi_casi.csv
 │   │       ├── Trend_settimanale_decessi.csv
 │   │       ├── Trend_settimanale_guariti.csv
+│   │       ├── Trend_settimanale_ricoveri.csv
+│   │       ├── Trend_settimanale_terapie_intensive.csv
 │   │
 │   │   ├── Reggio Calabria
 │   │       ├── Reggio Calabria.xlsx
@@ -62,6 +68,8 @@ covid19-opendata-calabria/
 │   │       ├── Trend_settimanale_nuovi_casi.csv
 │   │       ├── Trend_settimanale_decessi.csv
 │   │       ├── Trend_settimanale_guariti.csv
+│   │       ├── Trend_settimanale_ricoveri.csv
+│   │       ├── Trend_settimanale_terapie_intensive.csv
 │   │
 │   │   ├── Vibo Valentia
 │   │       ├── Vibo Valentia.xlsx
@@ -70,6 +78,8 @@ covid19-opendata-calabria/
 │   │       ├── Trend_settimanale_nuovi_casi.csv
 │   │       ├── Trend_settimanale_decessi.csv
 │   │       ├── Trend_settimanale_guariti.csv
+│   │       ├── Trend_settimanale_ricoveri.csv
+│   │       ├── Trend_settimanale_terapie_intensive.csv
 │   │
 │   ├── regione
 │   │   ├── Calabria.xlsx
@@ -78,6 +88,8 @@ covid19-opendata-calabria/
 │   │   ├── Trend_settimanale_nuovi_casi.csv
 │   │   ├── Trend_settimanale_decessi.csv
 │   │   ├── Trend_settimanale_guariti.csv
+│   │   ├── Trend_settimanale_ricoveri.csv
+│   │   ├── Trend_settimanale_terapie_intensive.csv
 │   │
 │   ├── vaccinazione
 │   │   ├── dosi_consegnate_consumate_per_settimana.csv
@@ -101,6 +113,8 @@ Nella cartella dati si possono trovare le seguenti tabelle in formato xlsx e csv
 *   **Trend_settimanale_nuovi_casi**: dati sul numero di casi positivi al COVID-19 su base settimanale.
 *   **Trend_settimanale_decessi**: dati sul numero dei decessi di persone positive al COVID-19 su base settimanale. 
 *   **Trend_settimanale_guariti**: dati sul numero dei guariti di persone positive al COVID-19 su base settimanale. 
+*   **Trend_settimanale_ricoveri**: dati sul numero dei ricoveri in area non critica di pazienti positivi al COVID-19 su base settimanale. 
+*   **Trend_settimanale_terapie_intensive**: dati sul numero dei posti occupati in terapia intensiva da pazienti positivi al COVID-19 su base settimanale.
 *   **Catanzaro**: dati sull'andamento del COVID-19 nella provincia di Catanzaro.
 *   **Cosenza**: dati sull'andamento del COVID-19 nella provincia di Cosenza.
 *   **Crotone**: dati sull'andamento del COVID-19 nella provincia di Crotone.
@@ -163,6 +177,21 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | --- | --- | --- |
 | Data | string |  Settimana di riferimento. |
 | Guariti per settimana | integer |  Numero dei guariti di persone positive al COVID-19 su base settimanale. |
+
+
+**Trend_settimanale_ricoveri** 
+
+| Campo | Tipo di dati | Descrizione |
+| --- | --- | --- |
+| Data | string |  Settimana di riferimento. |
+| Ricoveri per settimana | integer |  Numero dei ricoveri in area non critica di pazienti positivi al COVID-19 su base settimanale.  |
+
+**Trend_settimanale_terapie_intensive** 
+
+| Campo | Tipo di dati | Descrizione |
+| --- | --- | --- |
+| Data | string |  Settimana di riferimento. |
+| Guariti per settimana | integer |  Numero dei posti occupati in terapia intensiva da pazienti positivi al COVID-19 su base settimanale.  |
 
 **ASP_PROVINCIA_ANNO-MESE-GIORNO**
 
