@@ -90,7 +90,7 @@ covid19-opendata-calabria/
 │   │   ├── Trend_settimanale_terapie_intensive.csv
 │   │
 │   ├── vaccinazione
-│   │   ├── dosi_consegnate_consumate_per_settimana.csv
+│   │   ├── dosi_somministrate_per_settimana.csv
 │   │   ├── dosi_consegnate_per_settimana.csv
 │   │   ├── dosi_somministrate_per_centomila_abitanti.csv
 │   │   ├── somministrazioni_giornaliere.csv
@@ -120,7 +120,7 @@ Nella cartella dati si possono trovare le seguenti tabelle in formato xlsx e csv
 *   **Vibo Valentia**: dati sull'andamento del COVID-19 nella provincia di Vibo Valentia.
 *   **ASP_PROVINCIA_ANNO-MESE-GIORNO**: dati sull'andamento del COVID-19 suddivisi per data e comune. 
 *   **dosi_consegnate_per_settimana**: dati sul numero di dosi dei vaccini anti-COVID-19 consegnate settimanalmente.
-*   **dosi_consegnate_consumate_per_settimana**: dati sul numero di dosi di vaccino consegnate e quelle somministrate su base settimanale.
+*   **dosi_somministrate_per_settimana**: dati sul numero di dosi di vaccino somministrate su base settimanale.
 *   **dosi_somministrate_per_centomila_abitanti**: dati sul numero di dosi di vaccino somministrate ogni 100.000 abitanti su base settimanale.
 *   **somministrazioni_giornaliere**: dati sul numero assoluto di dosi somministrate al giorno.
 *   **somministrazioni_giornaliere_per_categoria**: dati sul numero assoluto di dosi di vaccino somministrate al giorno per categoria di popolazione.
@@ -218,13 +218,12 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | N. abitanti | integer |  Popolazione Regione Calabria (31/12/2019 - Istat). |
 | Dosi per 100.000 abitanti | integer |  Numero di dosi somministrate ogni 100.000 abitanti. |
 
-**dosi_consegnate_consumate_per_settimana**
+**dosi_somministrate_per_settimana**
 
 | Campo | Tipo di dati | Descrizione |
 | --- | --- | --- |
 | Data | string | Settimana di riferimento. |
-| Dosi consegnate | integer | Numero totale di dosi consegnate per settimana. |
-| Dosi consumate | integer | Numero totale di dosi somministrate per settimana. |
+| Dosi somministrate | integer | Numero totale di dosi somministrate per settimana. |
 
 **somministrazioni_giornaliere**
 
