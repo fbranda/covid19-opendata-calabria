@@ -1,10 +1,10 @@
 Data;Casi per settimana
-10 - 16 mar;32
-17 - 23 mar;62
-24 - 30 mar;97
-31 mar - 6 apr;50
-7 - 13 apr;22
-14 - 20 apr;9
+10 - 16 mar;20
+17 - 23 mar;72
+24 - 30 mar;96
+31 mar - 6 apr;53
+7 - 13 apr;20
+14 - 20 apr;16
 21 - 27 apr;7
 28 apr - 4 mag;6
 5 - 11 mag;8
@@ -27,10 +27,10 @@ Data;Casi per settimana
 1 - 7 set;12
 8 - 14 set;19
 15 - 21 set;31
-22 - 28 set;6
-29 set - 5 ott;37
-6 - 12 ott;179
-13 - 19 ott;288
+22 - 28 set;7
+29 set - 5 ott;36
+6 - 12 ott;178
+13 - 19 ott;289
 20 - 26 ott;480
 27 ott - 2 nov;625
 3 - 9 nov;1.060
@@ -43,17 +43,18 @@ Data;Casi per settimana
 22 - 28 dic;769
 29 dic - 4 gen;718
 5 -11 gen;885
-12 - 18 gen;880
-19 - 25 gen;729
-26 gen - 1 feb;645
+12 - 18 gen;879
+19 - 25 gen;746
+26 gen - 1 feb;647
 2 - 8 feb;682
 9 - 15 feb;623
-16 - 22 feb;473
+16 - 22 feb;474
 23 feb - 1 mar;637
 2 - 8 mar;455
 9 - 15 mar;458
-16 - 22 mar;425
+16 - 22 mar;430
 23 - 29 mar;497
-30 mar - 5 apr;642
+30 mar - 5 apr;646
 6 - 12 apr;592
-13 - 19 apr;940
+13 - 19 apr;941
+20 - 26 apr;851
