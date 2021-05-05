@@ -83,6 +83,7 @@ covid19-opendata-calabria/
 │   │   ├── Calabria.xlsx
 │   │   ├── Calabria.csv
 │   │   ├── Incidenza_per_centomila_abitanti.csv
+│   │   ├── Tamponi_per_settimana.csv
 │   │   ├── Trend_settimanale_nuovi_casi.csv
 │   │   ├── Trend_settimanale_decessi.csv
 │   │   ├── Trend_settimanale_guariti.csv
@@ -107,6 +108,7 @@ covid19-opendata-calabria/
 Nella cartella dati si possono trovare le seguenti tabelle in formato xlsx e csv: 
 *   **Calabria**: dati sull'andamento del COVID-19 a livello regionale. 
 *   **Incidenza_per_centomila_abitanti**: dati sul numero di nuovi casi positivi al COVID-19 ogni 100.000 abitanti su base settimanale.
+*   **Tamponi_per_settimana**: dati sul numero di nuovi casi positivi al COVID-19 in rapporto al numero totale di tamponi fatti su base settimanale.
 *   **Trend_settimanale_nuovi_casi**: dati sul numero di casi positivi al COVID-19 su base settimanale.
 *   **Trend_settimanale_decessi**: dati sul numero dei decessi di persone positive al COVID-19 su base settimanale. 
 *   **Trend_settimanale_guariti**: dati sul numero dei guariti di persone positive al COVID-19 su base settimanale. 
@@ -120,7 +122,6 @@ Nella cartella dati si possono trovare le seguenti tabelle in formato xlsx e csv
 *   **ASP_PROVINCIA_ANNO-MESE-GIORNO**: dati sull'andamento del COVID-19 suddivisi per data e comune. 
 *   **dosi_consegnate_per_settimana**: dati sul numero di dosi dei vaccini anti-COVID-19 consegnate settimanalmente.
 *   **dosi_somministrate_per_settimana**: dati sul numero di dosi di vaccino somministrate su base settimanale.
-*   **dosi_somministrate_per_centomila_abitanti**: dati sul numero di dosi di vaccino somministrate ogni 100.000 abitanti su base settimanale.
 *   **somministrazioni_giornaliere**: dati sul numero assoluto di dosi somministrate al giorno.
 *   **somministrazioni_giornaliere_per_categoria**: dati sul numero assoluto di dosi di vaccino somministrate al giorno per categoria di popolazione.
 *   **somministrazioni_giornaliere_per_eta_prima_dose**: dati sul numero assoluto di dosi di vaccino somministrate (prima dose) al giorno per età.
@@ -146,13 +147,21 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | Ricoverati | integer | Numero totale di persone ricoverate in ospedale con sintomi connessi al COVID-19. |
 | Terapia intensiva | integer | Numero totale di posti letto di TI occupati da pazienti positivi al COVID-19. |
 
-
 **Incidenza_per_centomila_abitanti** 
 
 | Campo | Tipo di dati | Descrizione |
 | --- | --- | --- |
 | Data | string |  Settimana di riferimento. |
 | Casi per settimana | integer |  Numero di persone positive al COVID-19 ogni 100.000 abitanti su base settimanale. |
+
+**Tamponi_per_settimana** 
+
+| Campo | Tipo di dati | Descrizione |
+| --- | --- | --- |
+| Data | string |  Settimana di riferimento. |
+| Rapporto positivi / casi testati | double |  Nuovi casi positivi al COVID-19 in rapporto al numero totale di tamponi. |
+| Casi per settimana | integer |  Numero di persone positive al COVID-19 su base settimanale. |
+| Tamponi fatti | integer |  Numero di tamponi fatti su base settimanale. |
 
 **Trend_settimanale_nuovi_casi** 
 
@@ -208,15 +217,6 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | Data | string | Settimana di riferimento. |
 | Dosi consegnate | integer | Numero totale di dosi consegnate per settimana. |
 
-**dosi_somministrate_per_centomila_abitanti**
-
-| Campo | Tipo di dati | Descrizione |
-| --- | --- | --- |
-| Data | string |  Settimana di riferimento. |
-| Dosi somministrate | integer |  Numero di dosi somministrate per settimana. |
-| N. abitanti | integer |  Popolazione Regione Calabria (31/12/2019 - Istat). |
-| Dosi per 100.000 abitanti | integer |  Numero di dosi somministrate ogni 100.000 abitanti. |
-
 **dosi_somministrate_per_settimana**
 
 | Campo | Tipo di dati | Descrizione |
@@ -263,12 +263,12 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | 80-89 | integer | Totale dei soggetti appartenenti alla fascia d'età 80-89 a cui è stato somministrata la prima dose di vaccino per giorno. |
 | 90+ | integer | Totale dei soggetti appartenenti alla fascia d'età 90+ a cui è stato somministrata la prima dose di vaccino per giorno. |
 
-**somministrazioni_giornaliere_per_tipo_dose**
+**somministrazioni_per_categoria_in_percentuale**
 
 | Campo | Tipo di dati | Descrizione |
 | --- | --- | --- |
 | Categoria | string | Tipologia di categoria definita dal Piano vaccinale. |
-| Percentuale | integer | Percentuale di dosi somministrate (sul totale delle dosi somministrate) suddivise per categoria. |
+| Percentuale | double | Percentuale di dosi somministrate (sul totale delle dosi somministrate) suddivise per categoria. |
 
 **somministrazioni_giornaliere_per_tipo_dose**
 
@@ -283,14 +283,14 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | Campo | Tipo di dati | Descrizione |
 | --- | --- | --- |
 | Età | string | Fascia d'età a cui è stata somministrata la prima dose di vaccino. |
-| Vaccinazioni | integer | Percentuale di popolazione che ha ricevuto solo la prima dose di vaccino per età. |
+| Vaccinazioni | double | Percentuale di popolazione che ha ricevuto solo la prima dose di vaccino per età. |
 
 **somministrazioni_per_eta_seconda_dose**:
 
 | Campo | Tipo di dati | Descrizione |
 | --- | --- | --- |
 | Età | string | Fascia d'età a cui è stata somministrata la prima dose di vaccino. |
-| Vaccinazioni | integer | Percentuale di popolazione che ha completato il ciclo vaccinale (2 dosi di vaccino) per età. |
+| Vaccinazioni | double | Percentuale di popolazione che ha completato il ciclo vaccinale (2 dosi di vaccino) per età. |
 
 
 
