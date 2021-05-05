@@ -92,7 +92,6 @@ covid19-opendata-calabria/
 │   ├── vaccinazione
 │   │   ├── dosi_somministrate_per_settimana.csv
 │   │   ├── dosi_consegnate_per_settimana.csv
-│   │   ├── dosi_somministrate_per_centomila_abitanti.csv
 │   │   ├── somministrazioni_giornaliere.csv
 │   │   ├── somministrazioni_giornaliere_per_categoria.csv
 │   │   ├── somministrazioni_giornaliere_per_eta_prima_dose.csv
