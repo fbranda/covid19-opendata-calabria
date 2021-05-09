@@ -97,6 +97,7 @@ covid19-opendata-calabria/
 │   │   ├── somministrazioni_giornaliere_per_categoria.csv
 │   │   ├── somministrazioni_giornaliere_per_eta_prima_dose.csv
 │   │   ├── somministrazioni_giornaliere_tipo_dose.csv
+│   │   ├── somministrazioni_giornaliere_tipo_vaccino.csv
 │   │   ├── somministrazioni_per_categoria_in_percentuale.csv
 │   │   ├── somministrazioni_per_eta_prima_dose.csv
 │   │   ├── somministrazioni_per_eta_seconda_dose.csv
@@ -126,6 +127,7 @@ Nella cartella dati si possono trovare le seguenti tabelle in formato xlsx e csv
 *   **somministrazioni_giornaliere_per_categoria**: dati sul numero assoluto di dosi di vaccino somministrate al giorno per categoria di popolazione.
 *   **somministrazioni_giornaliere_per_eta_prima_dose**: dati sul numero assoluto di dosi di vaccino somministrate (prima dose) al giorno per età.
 *   **somministrazioni_giornaliere_per_tipo_dose**: dati sul numero assoluto di dosi somministrate al giorno, suddiviso per prima dose e seconda dose.
+*   **somministrazioni_giornaliere_per_tipo_vaccino**: dati sul numero assoluto di dosi somministrate al giorno, suddiviso per tipo di vaccino.
 *   **somministrazioni_per_categoria_in_percentuale**: dati sulla percentuale di dosi di vaccino somministrate per categoria di popolazione.
 *   **somministrazioni_per_eta_prima_dose**: dati sulla percentuale di popolazione che ha ricevuto solo la prima dose di vaccino. 
 *   **somministrazioni_per_eta_seconda_dose**: dati sulla percentuale di popolazione che ha completato il ciclo vaccinale (2 dosi di vaccino). 
@@ -277,6 +279,17 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | Data | string | Giorno in cui è avvenuta la somministrazione. |
 | Prima dose | integer | Numero prime somministrazioni per giorno. |
 | Seconda dose | integer | Numero seconde somministrazioni per giorno. |
+
+**somministrazioni_giornaliere_per_tipo_vaccino**
+
+| Campo | Tipo di dati | Descrizione |
+| --- | --- | --- |
+| Data | string | Giorno in cui è avvenuta la somministrazione. |
+| Dosi totali somministrate | integer | Numero totale di somministrazioni per giorno. |
+| Pfizer/BioNTech | integer | Numero totale di somministrazioni di Pfizer/BioNTech per giorno. |
+| Moderna | integer | Numero totale di somministrazioni di Moderna per giorno. |
+| Vaxzevria (AstraZeneca) | integer | Numero totale di somministrazioni di Vaxzevria (AstraZeneca) per giorno. |
+| Janssen | integer | Numero totale di somministrazioni di Janssen per giorno. |
 
 **somministrazioni_per_eta_prima_dose**:
 
