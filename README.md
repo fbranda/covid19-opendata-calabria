@@ -83,6 +83,7 @@ covid19-opendata-calabria/
 │   │   ├── Calabria.xlsx
 │   │   ├── Calabria.csv
 │   │   ├── Incidenza_per_centomila_abitanti.csv
+│   │   ├── Tamponi_per_centomila_abitanti.csv
 │   │   ├── Tamponi_per_settimana.csv
 │   │   ├── Trend_settimanale_nuovi_casi.csv
 │   │   ├── Trend_settimanale_decessi.csv
@@ -109,6 +110,7 @@ covid19-opendata-calabria/
 Nella cartella dati si possono trovare le seguenti tabelle in formato xlsx e csv: 
 *   **Calabria**: dati sull'andamento del COVID-19 a livello regionale. 
 *   **Incidenza_per_centomila_abitanti**: dati sul numero di nuovi casi positivi al COVID-19 ogni 100.000 abitanti su base settimanale.
+*   **Tamponi_per_centomila_abitanti**: dati sul numero dei tamponi fatti ogni 100.000 abitanti su base settimanale.
 *   **Tamponi_per_settimana**: dati sul numero di nuovi casi positivi al COVID-19 in rapporto al numero totale di tamponi fatti su base settimanale.
 *   **Trend_settimanale_nuovi_casi**: dati sul numero di casi positivi al COVID-19 su base settimanale.
 *   **Trend_settimanale_decessi**: dati sul numero dei decessi di persone positive al COVID-19 su base settimanale. 
@@ -155,6 +157,13 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | --- | --- | --- |
 | Data | string |  Settimana di riferimento. |
 | Casi per settimana | integer |  Numero di persone positive al COVID-19 ogni 100.000 abitanti su base settimanale. |
+
+**Tamponi_per_centomila_abitanti** 
+
+| Campo | Tipo di dati | Descrizione |
+| --- | --- | --- |
+| Data | string |  Settimana di riferimento. |
+| Tamponi per settimana | integer |  Numero di tamponi fatti ogni 100.000 abitanti su base settimanale. |
 
 **Tamponi_per_settimana** 
 
