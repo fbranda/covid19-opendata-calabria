@@ -1,4 +1,4 @@
-data;Rapporto tamponi / Nuovi positivi;Casi per settimana;Tamponi fatti
+Data;Rapporto positivi / casi testati;Casi per settimana;Tamponi fatti
 24 feb - 1 mar;2,86%;1;35
 2 - 8 mar;10,26%;8;78
 9 - 15 mar;7,65%;59;771
@@ -62,3 +62,4 @@ data;Rapporto tamponi / Nuovi positivi;Casi per settimana;Tamponi fatti
 19 - 25 apr;11,90%;3.117;26.186
 26 apr - 2 mag;10,24%;2.591;25.295
 3 - 9 mag;8,54%;2.253;26.374
+10 - 16 mag;7,60%;1.682;22.119
