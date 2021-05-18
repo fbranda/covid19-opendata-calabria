@@ -126,7 +126,6 @@ Nella cartella dati si possono trovare le seguenti tabelle in formato xlsx e csv
 *   **dosi_somministrate_per_settimana**: dati sul numero di dosi di vaccino somministrate su base settimanale.
 *   **somministrazioni_giornaliere**: dati sul numero assoluto di dosi somministrate al giorno.
 *   **somministrazioni_giornaliere_per_categoria**: dati sul numero assoluto di dosi di vaccino somministrate al giorno per categoria di popolazione.
-*   **somministrazioni_giornaliere_per_eta_prima_dose**: dati sul numero assoluto di dosi di vaccino somministrate (prima dose) al giorno per età.
 *   **somministrazioni_giornaliere_per_tipo_dose**: dati sul numero assoluto di dosi somministrate al giorno, suddiviso per prima dose e seconda dose.
 *   **somministrazioni_giornaliere_per_tipo_vaccino**: dati sul numero assoluto di dosi somministrate al giorno, suddiviso per tipo di vaccino.
 *   **somministrazioni_per_categoria_in_percentuale**: dati sulla percentuale di dosi di vaccino somministrate per categoria di popolazione.
@@ -252,22 +251,6 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | Soggetti fragili | integer | Numero di somministrazioni effettuate ai soggetti fragili e loro caregiver indicate per giorno. |
 | Forze armate | integer | Numero di somministrazioni effettuate al personale del comparto difesa e sicurezza indicate per giorno. |
 | Altro | integer | Numero di somministrazioni effettuate ai soggetti non riconducibili alle precedenti categorie indicate per giorno. |
-
-
-**somministrazioni_giornaliere_per_eta_prima_dose**
-
-| Campo | Tipo di dati | Descrizione |
-| --- | --- | --- |
-| Data | string | Giorno in cui è avvenuta la somministrazione. |
-| 16-19 | integer | Totale dei soggetti appartenenti alla fascia d'età 16-19 a cui è stato somministrata la prima dose di vaccino per giorno. |
-| 20-29 | integer | Totale dei soggetti appartenenti alla fascia d'età 20-29 a cui è stato somministrata la prima dose di vaccino per giorno. |
-| 30-39 | integer | Totale dei soggetti appartenenti alla fascia d'età 30-39 a cui è stato somministrata la prima dose di vaccino per giorno. |
-| 40-49 | integer | Totale dei soggetti appartenenti alla fascia d'età 40-49 a cui è stato somministrata la prima dose di vaccino per giorno. |
-| 50-59 | integer | Totale dei soggetti appartenenti alla fascia d'età 50-59 a cui è stato somministrata la prima dose di vaccino per giorno. |
-| 60-69 | integer | Totale dei soggetti appartenenti alla fascia d'età 60-69 a cui è stato somministrata la prima dose di vaccino per giorno. |
-| 70-79 | integer | Totale dei soggetti appartenenti alla fascia d'età 70-79 a cui è stato somministrata la prima dose di vaccino per giorno. |
-| 80-89 | integer | Totale dei soggetti appartenenti alla fascia d'età 80-89 a cui è stato somministrata la prima dose di vaccino per giorno. |
-| 90+ | integer | Totale dei soggetti appartenenti alla fascia d'età 90+ a cui è stato somministrata la prima dose di vaccino per giorno. |
 
 **somministrazioni_per_categoria_in_percentuale**
 
