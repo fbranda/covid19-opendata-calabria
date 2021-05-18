@@ -3,7 +3,7 @@ Data;Decessi per settimana
 17 - 23 mar;0
 24 - 30 mar;6
 31 mar - 6 apr;15
-7 - 13 apr;3
+7 - 13 apr;2
 14 - 20 apr;3
 21 - 27 apr;4
 28 apr - 4 mag;2
@@ -38,24 +38,26 @@ Data;Decessi per settimana
 17 - 23 nov;9
 24 - 30 nov;8
 1 - 7 dic;15
-8 - 14 dic;4
-15 - 21 dic;2
-22 - 28 dic;1
+8 - 14 dic;2
+15 - 21 dic;-1
+22 - 28 dic;0
 29 dic - 4 gen;1
 5 -11 gen;1
 12 - 18 gen;2
 19 - 25 gen;4
-26 gen - 1 feb;2
+26 gen - 1 feb;0
 2 - 8 feb;4
-9 - 15 feb;4
+9 - 15 feb;3
 16 - 22 feb;2
-23 feb - 1 mar;3
+23 feb - 1 mar;2
 2 - 8 mar;1
 9 - 15 mar;5
 16 - 22 mar;2
-23 - 29 mar;3
-30 mar - 5 apr;9
-6 - 12 apr;3
+23 - 29 mar;2
+30 mar - 5 apr;-2
+6 - 12 apr;2
 13 - 19 apr;3
 20 - 26 apr;4
 27 apr - 3 mag;6
+4 - 10 mag;8
+11 - 17 mag;3
