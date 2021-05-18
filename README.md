@@ -130,11 +130,7 @@ Nella cartella dati si possono trovare le seguenti tabelle in formato xlsx e csv
 *   **somministrazioni_giornaliere_per_tipo_dose**: dati sul numero assoluto di dosi somministrate al giorno, suddiviso per prima dose e seconda dose.
 *   **somministrazioni_giornaliere_per_tipo_vaccino**: dati sul numero assoluto di dosi somministrate al giorno, suddiviso per tipo di vaccino.
 *   **somministrazioni_per_categoria_in_percentuale**: dati sulla percentuale di dosi di vaccino somministrate per categoria di popolazione.
-*   **somministrazioni_per_eta_prima_dose**: dati sulla percentuale di popolazione che ha ricevuto solo la prima dose di vaccino. 
-*   **somministrazioni_per_eta_seconda_dose**: dati sulla percentuale di popolazione che ha completato il ciclo vaccinale (2 dosi di vaccino). 
-
-
-
+*   **somministrazioni_per_copertura_vaccinale**: dati sulla percentuale di popolazione che ha completato il ciclo vaccinale (2 dosi di vaccino), o almeno la prima dose, o nessuna dose.
 
 I campi di ogni tabella sono schematizzati come riportato di seguito:
 
@@ -299,25 +295,14 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | Vaxzevria (AstraZeneca) | integer | Numero totale di somministrazioni di Vaxzevria (AstraZeneca) per giorno. |
 | Janssen | integer | Numero totale di somministrazioni di Janssen per giorno. |
 
-**somministrazioni_per_eta_prima_dose**:
+**somministrazioni_per_copertura_vaccinale**:
 
 | Campo | Tipo di dati | Descrizione |
 | --- | --- | --- |
-| Età | string | Fascia d'età a cui è stata somministrata la prima dose di vaccino. |
-| Vaccinazioni | double | Percentuale di popolazione che ha ricevuto solo la prima dose di vaccino per età. |
-
-**somministrazioni_per_eta_seconda_dose**:
-
-| Campo | Tipo di dati | Descrizione |
-| --- | --- | --- |
-| Età | string | Fascia d'età a cui è stata somministrata la prima dose di vaccino. |
-| Vaccinazioni | double | Percentuale di popolazione che ha completato il ciclo vaccinale (2 dosi di vaccino) per età. |
-
-
-
-
-
-
+| Età | string | Fascia d'età di riferimento. |
+| Ciclo completo | double | Percentuale di popolazione che ha completato il ciclo vaccinale (2 dosi di vaccino). |
+| Solo 1a dose | double | Percentuale di popolazione che ha ricevuto solo la prima dose di vaccino. |
+| Nessuna dose | double | Percentuale di popolazione che non ha ricevuto ancora nessuna dose. |
 
 
 ## Licenza
