@@ -100,8 +100,7 @@ covid19-opendata-calabria/
 │   │   ├── somministrazioni_giornaliere_tipo_dose.csv
 │   │   ├── somministrazioni_giornaliere_tipo_vaccino.csv
 │   │   ├── somministrazioni_per_categoria_in_percentuale.csv
-│   │   ├── somministrazioni_per_eta_prima_dose.csv
-│   │   ├── somministrazioni_per_eta_seconda_dose.csv
+│   │   ├── somministrazioni_per_copertura_vaccinale.csv
 
 ```
 
