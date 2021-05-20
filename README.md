@@ -129,7 +129,7 @@ Nella cartella dati si possono trovare le seguenti tabelle in formato xlsx e csv
 *   **somministrazioni_giornaliere_per_tipo_dose**: dati sul numero assoluto di dosi somministrate al giorno, suddiviso per prima dose, seconda dose e monodose.
 *   **somministrazioni_giornaliere_per_tipo_vaccino**: dati sul numero assoluto di dosi somministrate al giorno, suddiviso per tipo di vaccino.
 *   **somministrazioni_per_categoria_in_percentuale**: dati sulla percentuale di dosi di vaccino somministrate per categoria di popolazione.
-*   **somministrazioni_per_copertura_vaccinale**: dati sulla percentuale di popolazione che ha completato il ciclo vaccinale (2 dosi di vaccino), o almeno la prima dose, o nessuna dose.
+*   **somministrazioni_per_copertura_vaccinale**: dati sulla percentuale di popolazione che ha completato il ciclo vaccinale con due dosi o con vaccino monodose, o che ha ricevuto una sola dose di vaccino, o nessuna dose.
 
 I campi di ogni tabella sono schematizzati come riportato di seguito:
 
@@ -264,9 +264,9 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | Campo | Tipo di dati | Descrizione |
 | --- | --- | --- |
 | Data | string | Giorno in cui è avvenuta la somministrazione. |
-| Prima dose | integer | Numero prime somministrazioni per giorno. |
-| Seconda dose | integer | Numero seconde somministrazioni per giorno. |
-| Monodose | integer | Numero monodosi somministrazioni per giorno. |
+| Prima dose | integer | Numero totale di prime somministrazioni per giorno. |
+| Seconda dose | integer | Numero totale di seconde somministrazioni per giorno. |
+| Monodose | integer | Numero totale di somministrazioni del vaccino monodose per giorno. |
 
 **somministrazioni_giornaliere_per_tipo_vaccino**
 
@@ -284,7 +284,7 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | Campo | Tipo di dati | Descrizione |
 | --- | --- | --- |
 | Età | string | Fascia d'età di riferimento. |
-| Ciclo completo | double | Percentuale di popolazione che ha completato il ciclo vaccinale (2 dosi di vaccino). |
+| Ciclo completo | double | Percentuale di popolazione che ha completato il ciclo vaccinale con due dosi o con vaccino monodose. |
 | Solo 1a dose | double | Percentuale di popolazione che ha ricevuto solo la prima dose di vaccino. |
 | Nessuna dose | double | Percentuale di popolazione che non ha ricevuto ancora nessuna dose. |
 
