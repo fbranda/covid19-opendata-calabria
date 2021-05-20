@@ -126,7 +126,7 @@ Nella cartella dati si possono trovare le seguenti tabelle in formato xlsx e csv
 *   **dosi_somministrate_per_settimana**: dati sul numero di dosi di vaccino somministrate su base settimanale.
 *   **somministrazioni_giornaliere**: dati sul numero assoluto di dosi somministrate al giorno.
 *   **somministrazioni_giornaliere_per_categoria**: dati sul numero assoluto di dosi di vaccino somministrate al giorno per categoria di popolazione.
-*   **somministrazioni_giornaliere_per_tipo_dose**: dati sul numero assoluto di dosi somministrate al giorno, suddiviso per prima dose e seconda dose.
+*   **somministrazioni_giornaliere_per_tipo_dose**: dati sul numero assoluto di dosi somministrate al giorno, suddiviso per prima dose, seconda dose e monodose.
 *   **somministrazioni_giornaliere_per_tipo_vaccino**: dati sul numero assoluto di dosi somministrate al giorno, suddiviso per tipo di vaccino.
 *   **somministrazioni_per_categoria_in_percentuale**: dati sulla percentuale di dosi di vaccino somministrate per categoria di popolazione.
 *   **somministrazioni_per_copertura_vaccinale**: dati sulla percentuale di popolazione che ha completato il ciclo vaccinale (2 dosi di vaccino), o almeno la prima dose, o nessuna dose.
@@ -266,6 +266,7 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | Data | string | Giorno in cui è avvenuta la somministrazione. |
 | Prima dose | integer | Numero prime somministrazioni per giorno. |
 | Seconda dose | integer | Numero seconde somministrazioni per giorno. |
+| Monodose | integer | Numero monodosi somministrazioni per giorno. |
 
 **somministrazioni_giornaliere_per_tipo_vaccino**
 
