@@ -94,12 +94,11 @@ covid19-opendata-calabria/
 │   ├── vaccinazione
 │   │   ├── dosi_somministrate_per_settimana.csv
 │   │   ├── dosi_consegnate_per_settimana.csv
+│   │   ├── popolazione_vaccinata.csv
 │   │   ├── somministrazioni_giornaliere.csv
-│   │   ├── somministrazioni_giornaliere_per_categoria.csv
 │   │   ├── somministrazioni_giornaliere_per_eta_prima_dose.csv
 │   │   ├── somministrazioni_giornaliere_tipo_dose.csv
 │   │   ├── somministrazioni_giornaliere_tipo_vaccino.csv
-│   │   ├── somministrazioni_per_categoria_in_percentuale.csv
 │   │   ├── somministrazioni_per_copertura_vaccinale.csv
 
 ```
@@ -123,7 +122,8 @@ Nella cartella dati si possono trovare le seguenti tabelle in formato xlsx e csv
 *   **Vibo Valentia**: dati sull'andamento del COVID-19 nella provincia di Vibo Valentia.
 *   **ASP_PROVINCIA_ANNO-MESE-GIORNO**: dati sull'andamento del COVID-19 suddivisi per data e comune. 
 *   **dosi_consegnate_per_settimana**: dati sul numero di dosi dei vaccini anti-COVID-19 consegnate settimanalmente.
-*   **dosi_somministrate_per_settimana**: dati sul numero di dosi di vaccino somministrate su base settimanale.
+*   **dosi_somministrate_per_settimana**: dati sul numero di dosi somministrate su base settimanale.
+*   **popolazione_vaccinata**: dati sul numero assoluto di dosi somministrate per fasce d'età di popolazione che ha completato il ciclo vaccinale con due dosi o con vaccino monodose, o che ha ricevuto una sola dose di vaccino.
 *   **somministrazioni_giornaliere**: dati sul numero assoluto di dosi somministrate al giorno.
 *   **somministrazioni_giornaliere_per_tipo_dose**: dati sul numero assoluto di dosi somministrate al giorno, suddiviso per prima dose, seconda dose e monodose.
 *   **somministrazioni_giornaliere_per_tipo_vaccino**: dati sul numero assoluto di dosi somministrate al giorno, suddiviso per tipo di vaccino.
@@ -227,6 +227,15 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | Data | string | Settimana di riferimento. |
 | Dosi somministrate | integer | Numero totale di dosi somministrate per settimana. |
 
+
+**popolazione_vaccinata**:
+
+| Campo | Tipo di dati | Descrizione |
+| --- | --- | --- |
+| Età | string | Fascia d'età di riferimento. |
+| Ciclo completo | double | Percentuale di popolazione che ha completato il ciclo vaccinale con due dosi o con vaccino monodose. |
+| Solo 1ᵃ dose | double | Percentuale di popolazione che ha ricevuto solo la prima dose di vaccino. |
+
 **somministrazioni_giornaliere**
 
 | Campo | Tipo di dati | Descrizione |
@@ -234,28 +243,6 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | Data | string | Giorno in cui è avvenuta la somministrazione. |
 | Somministrazioni | integer | Numero totale di somministrazioni per giorno. |
 
-**somministrazioni_giornaliere_per_categoria**
-
-| Campo | Tipo di dati | Descrizione |
-| --- | --- | --- |
-| Data | string | Giorno in cui è avvenuta la somministrazione. |
-| Operatori sanitari/sociosanitari | integer | Numero di somministrazioni effettuate agli operatori sanitari e sociosanitari indicate per giorno. |
-| Personale non sanitario | integer | Numero di somministrazioni effettuate al personale non sanitario impiegato in strutture sanitarie e in attività lavorativa a rischio indicate per giorno. |
-| Ospiti RSA | integer | Numero di somministrazioni effettuate ai soggetti ospiti di comunità residenziali indicate per giorno. |
-| Personale scolastico | integer | Numero di somministrazioni effettuate al personale scolastico indicate per giorno. |
-| 60 - 69 | integer | Numero somministrazioni effettuate ai soggetti con età anagrafica compresa tra 60 e 69 anni, non appartenenti ad altre categorie prioritarie ma ricevono la somministrazione esclusivamente sul criterio dell'età anagrafica, indicate per giorno. |
-| 70 - 79 | integer | Numero somministrazioni effettuate ai soggetti con età anagrafica compresa tra 70 e 79 anni, non appartenenti ad altre categorie prioritarie ma ricevono la somministrazione esclusivamente sul criterio dell'età anagrafica, indicate per giorno. |
-| Over 80 | integer | Numero somministrazioni effettuate ai soggetti con età anagrafica maggiore o uguale a 80 anni, non appartenenti ad altre categorie prioritarie ma ricevono la somministrazione esclusivamente sul criterio dell'età anagrafica, indicate per giorno. |
-| Soggetti fragili | integer | Numero di somministrazioni effettuate ai soggetti fragili e loro caregiver indicate per giorno. |
-| Forze armate | integer | Numero di somministrazioni effettuate al personale del comparto difesa e sicurezza indicate per giorno. |
-| Altro | integer | Numero di somministrazioni effettuate ai soggetti non riconducibili alle precedenti categorie indicate per giorno. |
-
-**somministrazioni_per_categoria_in_percentuale**
-
-| Campo | Tipo di dati | Descrizione |
-| --- | --- | --- |
-| Categoria | string | Tipologia di categoria definita dal Piano vaccinale. |
-| Percentuale | double | Percentuale di dosi somministrate (sul totale delle dosi somministrate) suddivise per categoria. |
 
 **somministrazioni_giornaliere_per_tipo_dose**
 
@@ -283,7 +270,7 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | --- | --- | --- |
 | Età | string | Fascia d'età di riferimento. |
 | Ciclo completo | double | Percentuale di popolazione che ha completato il ciclo vaccinale con due dosi o con vaccino monodose. |
-| Solo 1a dose | double | Percentuale di popolazione che ha ricevuto solo la prima dose di vaccino. |
+| Solo 1ᵃ dose | double | Percentuale di popolazione che ha ricevuto solo la prima dose di vaccino. |
 | Nessuna dose | double | Percentuale di popolazione che non ha ricevuto ancora nessuna dose. |
 
 
