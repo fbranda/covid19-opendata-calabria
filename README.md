@@ -125,10 +125,8 @@ Nella cartella dati si possono trovare le seguenti tabelle in formato xlsx e csv
 *   **dosi_consegnate_per_settimana**: dati sul numero di dosi dei vaccini anti-COVID-19 consegnate settimanalmente.
 *   **dosi_somministrate_per_settimana**: dati sul numero di dosi di vaccino somministrate su base settimanale.
 *   **somministrazioni_giornaliere**: dati sul numero assoluto di dosi somministrate al giorno.
-*   **somministrazioni_giornaliere_per_categoria**: dati sul numero assoluto di dosi di vaccino somministrate al giorno per categoria di popolazione.
 *   **somministrazioni_giornaliere_per_tipo_dose**: dati sul numero assoluto di dosi somministrate al giorno, suddiviso per prima dose, seconda dose e monodose.
 *   **somministrazioni_giornaliere_per_tipo_vaccino**: dati sul numero assoluto di dosi somministrate al giorno, suddiviso per tipo di vaccino.
-*   **somministrazioni_per_categoria_in_percentuale**: dati sulla percentuale di dosi di vaccino somministrate per categoria di popolazione.
 *   **somministrazioni_per_copertura_vaccinale**: dati sulla percentuale di popolazione che ha completato il ciclo vaccinale con due dosi o con vaccino monodose, o che ha ricevuto una sola dose di vaccino, o nessuna dose.
 
 I campi di ogni tabella sono schematizzati come riportato di seguito:
