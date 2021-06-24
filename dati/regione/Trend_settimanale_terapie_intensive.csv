@@ -1,68 +1,70 @@
-Data;Terapie intensive per settimana
+Data;Ricoveri per settimana
 24 feb - 1 mar;0
-2 - 8 mar;0
-9 - 15 mar;6
-16 - 22 mar;17
-23 - 29 mar;19
-30 mar - 5 apr;13
-6 - 12 apr;14
-13 - 19 apr;6
-20 - 26 apr;8
-27 apr - 3 mag;4
-4 - 10 mag;2
-11 - 17 mag;2
-18 - 24 mag;1
-25 - 31 mag;1
-1 - 7 giu;0
-8 - 14 giu;1
-15 - 21 giu;0
-22 - 28 giu;0
-29 giu - 5 lug;0
-6 - 12 lug;0
-13 - 19 lug;0
-20 - 26 lug;0
-27 lug - 2 ago;1
-3 - 9 ago;1
-10 - 16 ago;1
-17 - 23 ago;1
-24 - 30 ago;0
-31 ago - 6 set;0
-7 - 13 set;3
-14 - 20 set;4
-21 - 27 set;2
-28 set - 4 ott;2
-5 - 11 ott;1
-12 - 18 ott;5
-19 - 25 ott;10
-26 ott - 1 nov;13
-2 - 8 nov;16
-9 -15 nov;41
-16 - 22 nov;47
-23 - 29 nov;43
-30 nov - 6 dic;32
-7 - 13 dic;23
-14 - 20 dic;22
-21 - 27 dic;18
-28 dic - 3 gen;19
-4 - 10 gen;25
-11 - 17 gen;25
-18 - 24 gen;21
-25 - 31 gen;20
-1 - 7 feb;26
-8 - 14 feb;22
-15 - 21 feb;16
-22 - 28 feb;20
-1 - 7 mar;30
-8 - 14 mar;30
-15 - 21 mar;32
-22 - 28 mar;36
-29 mar - 4 apr;37
-5 - 11 apr;38
-12 - 18 apr;50
-19 - 25 apr;46
-26 apr - 2 mag;48
-3 - 9 mag;34
-10 - 16 mag;21
-17 - 23 mag;28
-24 - 30 mag;17
-31 mag - 6 giu;14
+2 - 8 mar;5
+9 - 15 mar;32
+16 - 22 mar;77
+23 - 29 mar;124
+30 mar - 5 apr;174
+6 - 12 apr;165
+13 - 19 apr;142
+20 - 26 apr;118
+27 apr - 3 mag;95
+4 - 10 mag;66
+11 - 17 mag;56
+18 - 24 mag;43
+25 - 31 mag;22
+1 - 7 giu;18
+8 - 14 giu;15
+15 - 21 giu;17
+22 - 28 giu;4
+29 giu - 5 lug;3
+6 - 12 lug;4
+13 - 19 lug;4
+20 - 26 lug;3
+27 lug - 2 ago;5
+3 - 9 ago;9
+10 - 16 ago;9
+17 - 23 ago;11
+24 - 30 ago;17
+31 ago - 6 set;25
+7 - 13 set;29
+14 - 20 set;30
+21 - 27 set;35
+28 set - 4 ott;36
+5 - 11 ott;41
+12 - 18 ott;61
+19 - 25 ott;106
+26 ott - 1 nov;161
+2 - 8 nov;233
+9 -15 nov;342
+16 - 22 nov;433
+23 - 29 nov;405
+30 nov - 6 dic;390
+7 - 13 dic;339
+14 - 20 dic;287
+21 - 27 dic;255
+28 dic - 3 gen;242
+4 - 10 gen;256
+11 - 17 gen;290
+18 - 24 gen;279
+25 - 31 gen;276
+1 - 7 feb;233
+8 - 14 feb;206
+15 - 21 feb;167
+22 - 28 feb;190
+1 - 7 mar;217
+8 - 14 mar;246
+15 - 21 mar;311
+22 - 28 mar;377
+29 mar - 4 apr;429
+5 - 11 apr;473
+12 - 18 apr;455
+19 - 25 apr;471
+26 apr - 2 mag;434
+3 - 9 mag;419
+10 - 16 mag;361
+17 - 23 mag;285
+24 - 30 mag;243
+31 mag - 6 giu;191
+7 - 13 giu;149
+14 - 20 giu;89
