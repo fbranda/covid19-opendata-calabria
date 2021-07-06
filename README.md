@@ -253,6 +253,7 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | Data | string | Giorno in cui è avvenuta la somministrazione. |
 | Prima dose | integer | Numero totale di prime somministrazioni per giorno. |
 | Seconda dose | integer | Numero totale di seconde somministrazioni per giorno. |
+| Pregressa infezione | integer | Numero di somministrazioni effettuate a soggetti con pregressa infezione da COVID-19 nel periodo 3-6 mesi e che, pertanto, concludono il ciclo vaccinale con un'unica dose.  |
 | Monodose | integer | Numero totale di somministrazioni del vaccino monodose per giorno. |
 
 **somministrazioni_giornaliere_per_tipo_vaccino**
