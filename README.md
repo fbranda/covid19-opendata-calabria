@@ -259,8 +259,8 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | Campo | Tipo di dati | Descrizione |
 | --- | --- | --- |
 | Età | string | Fascia d'età di riferimento. |
-| Ciclo completo | double | Percentuale di popolazione che ha completato il ciclo vaccinale con due dosi o con vaccino monodose. |
 | Solo 1ᵃ dose | double | Percentuale di popolazione che ha ricevuto solo la prima dose di vaccino. |
+| Ciclo completo | double | Percentuale di popolazione che ha completato il ciclo vaccinale con due dosi o con vaccino monodose. |
 | Nessuna dose | double | Percentuale di popolazione che non ha ricevuto ancora nessuna dose. |
 
 
