@@ -94,7 +94,6 @@ covid19-opendata-calabria/
 │   ├── vaccinazione
 │   │   ├── dosi_somministrate_per_settimana.csv
 │   │   ├── dosi_consegnate_per_settimana.csv
-│   │   ├── popolazione_vaccinata.csv
 │   │   ├── somministrazioni_giornaliere.csv
 │   │   ├── somministrazioni_giornaliere_per_eta_prima_dose.csv
 │   │   ├── somministrazioni_giornaliere_tipo_dose.csv
@@ -123,7 +122,6 @@ Nella cartella dati si possono trovare le seguenti tabelle in formato xlsx e csv
 *   **ASP_PROVINCIA_ANNO-MESE-GIORNO**: dati sull'andamento del COVID-19 suddivisi per data e comune. 
 *   **dosi_consegnate_per_settimana**: dati sul numero di dosi dei vaccini anti-COVID-19 consegnate settimanalmente.
 *   **dosi_somministrate_per_settimana**: dati sul numero di dosi somministrate su base settimanale.
-*   **popolazione_vaccinata**: dati sul numero assoluto di dosi somministrate per fasce d'età di popolazione che ha completato il ciclo vaccinale con due dosi o con vaccino monodose, o che ha ricevuto una sola dose di vaccino.
 *   **somministrazioni_giornaliere**: dati sul numero assoluto di dosi somministrate al giorno.
 *   **somministrazioni_giornaliere_per_tipo_dose**: dati sul numero assoluto di dosi somministrate al giorno, suddiviso per prima dose, seconda dose e monodose.
 *   **somministrazioni_giornaliere_per_tipo_vaccino**: dati sul numero assoluto di dosi somministrate al giorno, suddiviso per tipo di vaccino.
@@ -226,17 +224,6 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | --- | --- | --- |
 | Data | string | Settimana di riferimento. |
 | Dosi somministrate | integer | Numero totale di dosi somministrate per settimana. |
-
-
-**popolazione_vaccinata**:
-
-| Campo | Tipo di dati | Descrizione |
-| --- | --- | --- |
-| Età | string | Fascia d'età di riferimento. |
-| Ciclo completo | integer | Numero assoluto di persone che ha completato il ciclo vaccinale con due dosi o con vaccino monodose. |
-| Solo 1ᵃ dose | integer | Numero assoluto di persone che ha ricevuto solo la prima dose di vaccino. |
-| Nessuna dose | double | Numero assoluto di persone che non ha ricevuto ancora nessuna dose. |
-
 
 **somministrazioni_giornaliere**
 
