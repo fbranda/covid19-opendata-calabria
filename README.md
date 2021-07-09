@@ -99,6 +99,7 @@ covid19-opendata-calabria/
 │   │   ├── somministrazioni_giornaliere_tipo_dose.csv
 │   │   ├── somministrazioni_giornaliere_tipo_vaccino.csv
 │   │   ├── somministrazioni_per_copertura_vaccinale.csv
+│   │   ├── tipo_vaccino_per_settimana.csv
 
 ```
 
@@ -126,6 +127,7 @@ Nella cartella dati si possono trovare le seguenti tabelle in formato xlsx e csv
 *   **somministrazioni_giornaliere_per_tipo_dose**: dati sul numero assoluto di dosi somministrate al giorno, suddiviso per prima dose, seconda dose e monodose.
 *   **somministrazioni_giornaliere_per_tipo_vaccino**: dati sul numero assoluto di dosi somministrate al giorno, suddiviso per tipo di vaccino.
 *   **somministrazioni_per_copertura_vaccinale**: dati sulla percentuale di popolazione che ha completato il ciclo vaccinale con due dosi o con vaccino monodose, o che ha ricevuto una sola dose di vaccino, o nessuna dose.
+*   **tipo_vaccino_per_settimana**: dati sul tipo di vaccino anti-COVID-19 somministrato settimanalmente.
 
 I campi di ogni tabella sono schematizzati come riportato di seguito:
 
@@ -262,6 +264,16 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | Solo 1ᵃ dose | double | Percentuale di popolazione che ha ricevuto solo la prima dose di vaccino. |
 | Ciclo completo | double | Percentuale di popolazione che ha completato il ciclo vaccinale con due dosi o con vaccino monodose. |
 | Nessuna dose | double | Percentuale di popolazione che non ha ricevuto ancora nessuna dose. |
+
+**tipo_vaccino_per_settimana**
+
+| Campo | Tipo di dati | Descrizione |
+| --- | --- | --- |
+| Data | string | Settimana di riferimento. |
+| Pfizer/BioNTech | integer | Numero totale di somministrazioni di Pfizer/BioNTech. |
+| Moderna | integer | Numero totale di somministrazioni di Moderna. |
+| Vaxzevria (AstraZeneca) | integer | Numero totale di somministrazioni di Vaxzevria (AstraZeneca). |
+| Janssen | integer | Numero totale di somministrazioni di Janssen. |
 
 
 ## Licenza
