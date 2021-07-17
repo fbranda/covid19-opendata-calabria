@@ -94,7 +94,6 @@ covid19-opendata-calabria/
 │   ├── vaccinazione
 │   │   ├── dosi_somministrate_per_settimana.csv
 │   │   ├── dosi_consegnate_per_settimana.csv
-│   │   ├── somministrazioni_giornaliere.csv
 │   │   ├── somministrazioni_giornaliere_per_eta_prima_dose.csv
 │   │   ├── somministrazioni_giornaliere_tipo_dose.csv
 │   │   ├── somministrazioni_giornaliere_tipo_vaccino.csv
@@ -123,7 +122,6 @@ Nella cartella dati si possono trovare le seguenti tabelle in formato xlsx e csv
 *   **ASP_PROVINCIA_ANNO-MESE-GIORNO**: dati sull'andamento del COVID-19 suddivisi per data e comune. 
 *   **dosi_consegnate_per_settimana**: dati sul numero di dosi dei vaccini anti-COVID-19 consegnate settimanalmente.
 *   **dosi_somministrate_per_settimana**: dati sul numero di dosi somministrate su base settimanale.
-*   **somministrazioni_giornaliere**: dati sul numero assoluto di dosi somministrate al giorno.
 *   **somministrazioni_giornaliere_per_tipo_dose**: dati sul numero assoluto di dosi somministrate al giorno, suddiviso per prima dose, seconda dose e monodose.
 *   **somministrazioni_giornaliere_per_tipo_vaccino**: dati sul numero assoluto di dosi somministrate al giorno, suddiviso per tipo di vaccino.
 *   **somministrazioni_per_copertura_vaccinale**: dati sulla percentuale di popolazione che ha completato il ciclo vaccinale con due dosi o con vaccino monodose, o che ha ricevuto una sola dose di vaccino, o nessuna dose.
@@ -250,7 +248,8 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | Campo | Tipo di dati | Descrizione |
 | --- | --- | --- |
 | Data | string | Giorno in cui è avvenuta la somministrazione. |
-| Dosi totali somministrate | integer | Numero totale di somministrazioni per giorno. |
+| Dosi totali somministrate | integer | Numero totale di somministrazioni dall'inizio della campagna vaccinale. |
+| Dosi giornaliere somministrate | integer | Numero totale di somministrazioni per giorno. |
 | Pfizer/BioNTech | integer | Numero totale di somministrazioni di Pfizer/BioNTech per giorno. |
 | Moderna | integer | Numero totale di somministrazioni di Moderna per giorno. |
 | Vaxzevria (AstraZeneca) | integer | Numero totale di somministrazioni di Vaxzevria (AstraZeneca) per giorno. |
