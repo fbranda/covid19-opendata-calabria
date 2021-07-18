@@ -95,7 +95,6 @@ covid19-opendata-calabria/
 │   │   ├── dosi_consegnate_per_tipo_vaccino_per_settimana.csv
 │   │   ├── dosi_consegnate_somministrate_per_settimana.csv
 │   │   ├── dosi_somministrate_per_tipo_vaccino_per_settimana.csv
-│   │   ├── somministrazioni_giornaliere_per_eta_prima_dose.csv
 │   │   ├── somministrazioni_giornaliere_tipo_dose.csv
 │   │   ├── somministrazioni_giornaliere_tipo_vaccino.csv
 │   │   ├── somministrazioni_per_copertura_vaccinale.csv
@@ -123,8 +122,8 @@ Nella cartella dati si possono trovare le seguenti tabelle in formato xlsx e csv
 *   **dosi_consegnate_per_tipo_vaccino_per_settimana**: dati sul tipo di vaccino anti-COVID-19 consegnato settimanalmente.
 *   **dosi_consegnate_somministrate_per_settimana**: dati sul numero di dosi di vaccino consegnate e somministrato su base settimanale.
 *   **dosi_somministrate_per_tipo_vaccino_per_settimana**: dati sul tipo di vaccino anti-COVID-19 somministrato su base settimanale.
-*   **somministrazioni_giornaliere_per_tipo_dose**: dati sul numero assoluto di dosi somministrate al giorno, suddiviso per prima dose, seconda dose e monodose.
-*   **somministrazioni_giornaliere_per_tipo_vaccino**: dati sul numero assoluto di dosi somministrate al giorno, suddiviso per tipo di vaccino.
+*   **somministrazioni_giornaliere_tipo_dose**: dati sul numero assoluto di dosi somministrate al giorno, suddiviso per prima dose, seconda dose e monodose.
+*   **somministrazioni_giornaliere_tipo_vaccino**: dati sul numero assoluto di dosi somministrate al giorno, suddiviso per tipo di vaccino.
 *   **somministrazioni_per_copertura_vaccinale**: dati sulla percentuale di popolazione che ha completato il ciclo vaccinale con due dosi o con vaccino monodose, o che ha ricevuto una sola dose di vaccino, o nessuna dose.
 
 
@@ -212,29 +211,36 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | Ricoverati | integer | Numero totale di persone ricoverate in ospedale con sintomi connessi al COVID-19. |
 | Totale casi| integer | Numero totale di nuovi casi registrati nelle ultime 24 ore (A domicilio + Guariti + Deceduti + Ricoverati). |
 
-**dosi_consegnate_per_settimana**
+**dosi_consegnate_per_tipo_vaccino_per_settimana**
+
+| Campo | Tipo di dati | Descrizione |
+| --- | --- | --- |
+| Data | string | Settimana di riferimento. |
+| Pfizer/BioNTech | integer | Numero totale di consegne di Pfizer/BioNTech. |
+| Moderna | integer | Numero totale di consegne di Moderna. |
+| Vaxzevria (AstraZeneca) | integer | Numero totale di consegne di Vaxzevria (AstraZeneca). |
+| Janssen | integer | Numero totale di consegne di Janssen. |
+
+**dosi_consegnate_somministrate_per_settimana**
 
 | Campo | Tipo di dati | Descrizione |
 | --- | --- | --- |
 | Data | string | Settimana di riferimento. |
 | Dosi consegnate | integer | Numero totale di dosi consegnate per settimana. |
+| Dosi somministrate | integer | Numero totale di dosi somministrate per settimana. |
 
-**dosi_somministrate_per_settimana**
+**dosi_somministrate_per_tipo_vaccino_per_settimana**
 
 | Campo | Tipo di dati | Descrizione |
 | --- | --- | --- |
 | Data | string | Settimana di riferimento. |
-| Dosi somministrate | integer | Numero totale di dosi somministrate per settimana. |
-
-**somministrazioni_giornaliere**
-
-| Campo | Tipo di dati | Descrizione |
-| --- | --- | --- |
-| Data | string | Giorno in cui è avvenuta la somministrazione. |
-| Somministrazioni | integer | Numero totale di somministrazioni per giorno. |
+| Pfizer/BioNTech | integer | Numero totale di somministrazioni di Pfizer/BioNTech. |
+| Moderna | integer | Numero totale di somministrazioni di Moderna. |
+| Vaxzevria (AstraZeneca) | integer | Numero totale di somministrazioni di Vaxzevria (AstraZeneca). |
+| Janssen | integer | Numero totale di somministrazioni di Janssen. |
 
 
-**somministrazioni_giornaliere_per_tipo_dose**
+**somministrazioni_giornaliere_tipo_dose**
 
 | Campo | Tipo di dati | Descrizione |
 | --- | --- | --- |
@@ -244,7 +250,7 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | Pregressa infezione | integer | Numero di somministrazioni effettuate a soggetti con pregressa infezione da COVID-19 nel periodo 3-6 mesi e che, pertanto, concludono il ciclo vaccinale con un'unica dose.  |
 | Monodose | integer | Numero totale di somministrazioni del vaccino monodose per giorno. |
 
-**somministrazioni_giornaliere_per_tipo_vaccino**
+**somministrazioni_giornaliere_tipo_vaccino**
 
 | Campo | Tipo di dati | Descrizione |
 | --- | --- | --- |
@@ -265,15 +271,6 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | Ciclo completo | double | Percentuale di popolazione che ha completato il ciclo vaccinale con due dosi o con vaccino monodose. |
 | Nessuna dose | double | Percentuale di popolazione che non ha ricevuto ancora nessuna dose. |
 
-**tipo_vaccino_per_settimana**
-
-| Campo | Tipo di dati | Descrizione |
-| --- | --- | --- |
-| Data | string | Settimana di riferimento. |
-| Pfizer/BioNTech | integer | Numero totale di somministrazioni di Pfizer/BioNTech. |
-| Moderna | integer | Numero totale di somministrazioni di Moderna. |
-| Vaxzevria (AstraZeneca) | integer | Numero totale di somministrazioni di Vaxzevria (AstraZeneca). |
-| Janssen | integer | Numero totale di somministrazioni di Janssen. |
 
 
 ## Licenza
