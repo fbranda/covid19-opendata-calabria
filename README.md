@@ -92,13 +92,13 @@ covid19-opendata-calabria/
 │   │   ├── Trend_settimanale_terapie_intensive.csv
 │   │
 │   ├── vaccinazione
-│   │   ├── dosi_somministrate_per_settimana.csv
-│   │   ├── dosi_consegnate_per_settimana.csv
+│   │   ├── dosi_consegnate_per_tipo_vaccino_per_settimana.csv
+│   │   ├── dosi_consegnate_somministrate_per_settimana.csv
+│   │   ├── dosi_somministrate_per_tipo_vaccino_per_settimana.csv
 │   │   ├── somministrazioni_giornaliere_per_eta_prima_dose.csv
 │   │   ├── somministrazioni_giornaliere_tipo_dose.csv
 │   │   ├── somministrazioni_giornaliere_tipo_vaccino.csv
 │   │   ├── somministrazioni_per_copertura_vaccinale.csv
-│   │   ├── tipo_vaccino_per_settimana.csv
 
 ```
 
@@ -120,12 +120,13 @@ Nella cartella dati si possono trovare le seguenti tabelle in formato xlsx e csv
 *   **Reggio Calabria**: dati sull'andamento del COVID-19 nella provincia di Reggio Calabria.
 *   **Vibo Valentia**: dati sull'andamento del COVID-19 nella provincia di Vibo Valentia.
 *   **ASP_PROVINCIA_ANNO-MESE-GIORNO**: dati sull'andamento del COVID-19 suddivisi per data e comune. 
-*   **dosi_consegnate_per_settimana**: dati sul numero di dosi dei vaccini anti-COVID-19 consegnate settimanalmente.
-*   **dosi_somministrate_per_settimana**: dati sul numero di dosi somministrate su base settimanale.
+*   **dosi_consegnate_per_tipo_vaccino_per_settimana**: dati sul tipo di vaccino anti-COVID-19 consegnato settimanalmente.
+*   **dosi_consegnate_somministrate_per_settimana**: dati sul numero di dosi di vaccino consegnate e somministrato su base settimanale.
+*   **dosi_somministrate_per_tipo_vaccino_per_settimana**: dati sul tipo di vaccino anti-COVID-19 somministrato su base settimanale.
 *   **somministrazioni_giornaliere_per_tipo_dose**: dati sul numero assoluto di dosi somministrate al giorno, suddiviso per prima dose, seconda dose e monodose.
 *   **somministrazioni_giornaliere_per_tipo_vaccino**: dati sul numero assoluto di dosi somministrate al giorno, suddiviso per tipo di vaccino.
 *   **somministrazioni_per_copertura_vaccinale**: dati sulla percentuale di popolazione che ha completato il ciclo vaccinale con due dosi o con vaccino monodose, o che ha ricevuto una sola dose di vaccino, o nessuna dose.
-*   **tipo_vaccino_per_settimana**: dati sul tipo di vaccino anti-COVID-19 somministrato su base settimanale.
+
 
 I campi di ogni tabella sono schematizzati come riportato di seguito:
 
