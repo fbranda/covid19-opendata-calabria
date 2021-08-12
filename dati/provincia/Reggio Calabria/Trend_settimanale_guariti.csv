@@ -1,72 +1,75 @@
-Data;Guariti per settimana
-10 - 16 mar;1
-17 - 23 mar;4
-24 - 30 mar;2
-31 mar - 6 apr;8
-7 - 13 apr;8
-14 - 20 apr;13
-21 - 27 apr;27
-28 apr - 4 mag;24
-5 - 11 mag;29
-12 - 18 mag;62
-19 - 25 mag;39
-26 mag - 1 giu;19
-2 - 8 giu;10
-9 - 15 giu;6
+Data;Casi per settimana
+10 - 16 mar;4
+17 - 23 mar;14
+24 - 30 mar;18
+31 mar - 6 apr;10
+7 - 13 apr;4
+14 - 20 apr;-4
+21 - 27 apr;1
+28 apr - 4 mag;1
+5 - 11 mag;2
+12 - 18 mag;2
+19 - 25 mag;0
+26 mag - 1 giu;0
+2 - 8 giu;0
+9 - 15 giu;0
 16 - 22 giu;2
 23 - 29 giu;1
-30 giu - 6 lug;1
-7 - 13 lug;0
-14 - 20 lug;4
+30 giu - 6 lug;0
+7 - 13 lug;1
+14 - 20 lug;0
 21 - 27 lug;0
-28 lug - 3 ago;3
-4 - 10 ago;5
-11 - 17 ago;5
-18 - 24 ago;7
-25 - 31 ago;4
-1 - 7 set;12
-8 - 14 set;3
-15 - 21 set;17
-22 - 28 set;15
-29 set - 5 ott;16
-6 - 12 ott;5
-13 - 19 ott;64
-20 - 26 ott;0
-27 ott - 2 nov;112
-3 - 9 nov;392
-10 - 16 nov;421
-17 - 23 nov;523
-24 - 30 nov;1.028
-1 - 7 dic;1.376
-8 - 14 dic;960
-15 - 21 dic;849
-22 - 28 dic;657
-29 dic - 4 gen;549
-5 -11 gen;497
-12 - 18 gen;671
-19 - 25 gen;869
-26 gen - 1 feb;940
-2 - 8 feb;792
-9 - 15 feb;673
-16 - 22 feb;665
-23 feb - 1 mar;711
-2 - 8 mar;549
-9 - 15 mar;497
-16 - 22 mar;567
-23 - 29 mar;484
-30 mar - 5 apr;488
-6 - 12 apr;384
-13 - 19 apr;452
-20 - 26 apr;621
-27 apr - 3 mag;719
-4 - 10 mag;911
-11 - 17 mag;870
-18 - 24 mag;765
-25 - 31 mag;638
-1 - 7 giu;457
-8 - 14 giu;357
-15 - 21 giu;314
-22 - 28 giu;240
-29 giu - 5 lug;153
-6 - 12 lug;115
-13 - 19 lug;59
+28 lug - 3 ago;0
+4 - 10 ago;1
+11 - 17 ago;7
+18 - 24 ago;3
+25 - 31 ago;7
+1 - 7 set;2
+8 - 14 set;4
+15 - 21 set;6
+22 - 28 set;1
+29 set - 5 ott;7
+6 - 12 ott;34
+13 - 19 ott;55
+20 - 26 ott;91
+27 ott - 2 nov;119
+3 - 9 nov;201
+10 - 16 nov;216
+17 - 23 nov;233
+24 - 30 nov;140
+1 - 7 dic;109
+8 - 14 dic;90
+15 - 21 dic;115
+22 - 28 dic;146
+29 dic - 4 gen;136
+5 -11 gen;168
+12 - 18 gen;167
+19 - 25 gen;142
+26 gen - 1 feb;123
+2 - 8 feb;130
+9 - 15 feb;118
+16 - 22 feb;90
+23 feb - 1 mar;121
+2 - 8 mar;86
+9 - 15 mar;87
+16 - 22 mar;82
+23 - 29 mar;94
+30 mar - 5 apr;123
+6 - 12 apr;112
+13 - 19 apr;179
+20 - 26 apr;161
+27 apr - 3 mag;153
+4 - 10 mag;129
+11 - 17 mag;94
+18 - 24 mag;73
+25 - 31 mag;62
+1 - 7 giu;43
+8 - 14 giu;32
+15 - 21 giu;23
+22 - 28 giu;12
+29 giu - 5 lug;2
+6 - 12 lug;17
+13 - 19 lug;24
+20 - 26 lug;50
+27 lug - 2 ago;68
+3 - 9 ago;90
