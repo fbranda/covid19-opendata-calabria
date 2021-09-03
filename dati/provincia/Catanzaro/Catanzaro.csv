@@ -541,7 +541,7 @@ data;Nuovi casi;Deceduti;Dimessi / Guariti;Ricoverati;Terapia intensiva
 31/08/21;24;0;31;23;5
 01/09/21;26;0;26;21;6
 02/09/21;6;1;14;21;5
-03/09/21;;;;;
+03/09/21;13;0;17;23;5
 04/09/21;;;;;
 05/09/21;;;;;
 06/09/21;;;;;
@@ -569,7 +569,3 @@ data;Nuovi casi;Deceduti;Dimessi / Guariti;Ricoverati;Terapia intensiva
 28/09/21;;;;;
 29/09/21;;;;;
 30/09/21;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
