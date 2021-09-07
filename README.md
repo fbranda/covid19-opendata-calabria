@@ -57,7 +57,6 @@ covid19-opendata-calabria/
 │   │   ├── dosi_somministrate_per_tipo_vaccino_per_settimana.csv
 │   │   ├── somministrazioni_giornaliere_tipo_dose.csv
 │   │   ├── somministrazioni_giornaliere_tipo_vaccino.csv
-│   │   ├── somministrazioni_per_copertura_vaccinale.csv
 
 ```
 
@@ -153,15 +152,6 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | Moderna | integer | Numero totale di somministrazioni di Moderna per giorno. |
 | Vaxzevria (AstraZeneca) | integer | Numero totale di somministrazioni di Vaxzevria (AstraZeneca) per giorno. |
 | Janssen | integer | Numero totale di somministrazioni di Janssen per giorno. |
-
-**somministrazioni_per_copertura_vaccinale**:
-
-| Campo | Tipo di dati | Descrizione |
-| --- | --- | --- |
-| Età | string | Fascia d'età di riferimento. |
-| Solo 1ᵃ dose | double | Percentuale di popolazione che ha ricevuto solo la prima dose di vaccino. |
-| Ciclo completo | double | Percentuale di popolazione che ha completato il ciclo vaccinale con due dosi o con vaccino monodose. |
-| Nessuna dose | double | Percentuale di popolazione che non ha ricevuto ancora nessuna dose. |
 
 
 
