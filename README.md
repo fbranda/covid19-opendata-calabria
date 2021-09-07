@@ -63,16 +63,8 @@ covid19-opendata-calabria/
 
 # Descrizione dataset
 
-Nella cartella dati si possono trovare le seguenti tabelle in formato xlsx e csv: 
+Nella cartella dati si possono trovare le seguenti tabelle in formato csv: 
 *   **Calabria**: dati sull'andamento del COVID-19 a livello regionale. 
-*   **Incidenza_per_centomila_abitanti**: dati sul numero di nuovi casi positivi al COVID-19 ogni 100.000 abitanti su base settimanale.
-*   **Tamponi_per_centomila_abitanti**: dati sul numero dei tamponi fatti ogni 100.000 abitanti su base settimanale.
-*   **Tamponi_per_settimana**: dati sul numero di nuovi casi positivi al COVID-19 in rapporto al numero totale di tamponi fatti su base settimanale.
-*   **Trend_settimanale_nuovi_casi**: dati sul numero di casi positivi al COVID-19 su base settimanale.
-*   **Trend_settimanale_decessi**: dati sul numero dei decessi di persone positive al COVID-19 su base settimanale. 
-*   **Trend_settimanale_guariti**: dati sul numero dei guariti di persone positive al COVID-19 su base settimanale. 
-*   **Trend_settimanale_ricoveri**: dati sul numero dei ricoveri in area non critica di pazienti positivi al COVID-19 su base settimanale. 
-*   **Trend_settimanale_terapie_intensive**: dati sul numero dei posti occupati in terapia intensiva da pazienti positivi al COVID-19 su base settimanale.
 *   **Catanzaro**: dati sull'andamento del COVID-19 nella provincia di Catanzaro.
 *   **Cosenza**: dati sull'andamento del COVID-19 nella provincia di Cosenza.
 *   **Crotone**: dati sull'andamento del COVID-19 nella provincia di Crotone.
@@ -100,65 +92,6 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | Guariti/Dimessi | integer | Numero di pazienti dimessi dagli ospedali, o perché non necessitano più di cure ospedaliere e quindi vengono isolate presso il loro domicilio, o perché ne è stata verificata la negatività attraverso il tampone. |
 | Ricoverati | integer | Numero totale di persone ricoverate in ospedale con sintomi connessi al COVID-19. |
 | Terapia intensiva | integer | Numero totale di posti letto di TI occupati da pazienti positivi al COVID-19. |
-
-**Incidenza_per_centomila_abitanti** 
-
-| Campo | Tipo di dati | Descrizione |
-| --- | --- | --- |
-| Data | string |  Settimana di riferimento. |
-| Casi per settimana | integer |  Numero di persone positive al COVID-19 ogni 100.000 abitanti su base settimanale. |
-
-**Tamponi_per_centomila_abitanti** 
-
-| Campo | Tipo di dati | Descrizione |
-| --- | --- | --- |
-| Data | string |  Settimana di riferimento. |
-| Tamponi per settimana | integer |  Numero di tamponi fatti ogni 100.000 abitanti su base settimanale. |
-
-**Tamponi_per_settimana** 
-
-| Campo | Tipo di dati | Descrizione |
-| --- | --- | --- |
-| Data | string |  Settimana di riferimento. |
-| Rapporto positivi / casi testati | double |  Nuovi casi positivi al COVID-19 in rapporto al numero totale di tamponi. |
-| Casi per settimana | integer |  Numero di persone positive al COVID-19 su base settimanale. |
-| Tamponi fatti | integer |  Numero di tamponi fatti su base settimanale. |
-
-**Trend_settimanale_nuovi_casi** 
-
-| Campo | Tipo di dati | Descrizione |
-| --- | --- | --- |
-| Data | string |  Settimana di riferimento. |
-| Casi per settimana | integer |  Numero di persone positive al COVID-19 su base settimanale. |
-
-**Trend_settimanale_decessi** 
-
-| Campo | Tipo di dati | Descrizione |
-| --- | --- | --- |
-| Data | string |  Settimana di riferimento. |
-| Decessi per settimana | integer |  Numero dei decessi di persone positive al COVID-19 su base settimanale. |
-
-**Trend_settimanale_guariti** 
-
-| Campo | Tipo di dati | Descrizione |
-| --- | --- | --- |
-| Data | string |  Settimana di riferimento. |
-| Guariti per settimana | integer |  Numero dei guariti di persone positive al COVID-19 su base settimanale. |
-
-
-**Trend_settimanale_ricoveri** 
-
-| Campo | Tipo di dati | Descrizione |
-| --- | --- | --- |
-| Data | string |  Settimana di riferimento. |
-| Ricoveri per settimana | integer |  Numero dei ricoveri in area non critica di pazienti positivi al COVID-19 su base settimanale.  |
-
-**Trend_settimanale_terapie_intensive** 
-
-| Campo | Tipo di dati | Descrizione |
-| --- | --- | --- |
-| Data | string |  Settimana di riferimento. |
-| Guariti per settimana | integer |  Numero dei posti occupati in terapia intensiva da pazienti positivi al COVID-19 su base settimanale.  |
 
 **ASP_PROVINCIA_ANNO-MESE-GIORNO**
 
@@ -198,7 +131,6 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | Moderna | integer | Numero totale di somministrazioni di Moderna. |
 | Vaxzevria (AstraZeneca) | integer | Numero totale di somministrazioni di Vaxzevria (AstraZeneca). |
 | Janssen | integer | Numero totale di somministrazioni di Janssen. |
-
 
 **somministrazioni_giornaliere_tipo_dose**
 
