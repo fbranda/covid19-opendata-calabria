@@ -24,24 +24,10 @@ covid19-opendata-calabria/
 ├── dati/
 │   ├── provincia
 │   │   ├── Catanzaro
-│   │       ├── Catanzaro.xlsx
 │   │       ├── Catanzaro.csv
-│   │       ├── Incidenza_per_centomila_abitanti.csv
-│   │       ├── Trend_settimanale_nuovi_casi.csv
-│   │       ├── Trend_settimanale_decessi.csv
-│   │       ├── Trend_settimanale_guariti.csv
-│   │       ├── Trend_settimanale_ricoveri.csv
-│   │       ├── Trend_settimanale_terapie_intensive.csv
 │   │
 │   │   ├── Cosenza
-│   │       ├── Cosenza.xlsx
 │   │       ├── Cosenza.csv
-│   │       ├── Incidenza_per_centomila_abitanti.csv
-│   │       ├── Trend_settimanale_nuovi_casi.csv
-│   │       ├── Trend_settimanale_decessi.csv
-│   │       ├── Trend_settimanale_guariti.csv
-│   │       ├── Trend_settimanale_ricoveri.csv
-│   │       ├── Trend_settimanale_terapie_intensive.csv
 │   │       ├── comuni
 │   │           ├── Marzo_2020
 │   │               ├── ASP_CS_2020-03-24.csv
@@ -52,44 +38,18 @@ covid19-opendata-calabria/
 │   │           ...
 │   │
 │   │   ├── Crotone
-│   │       ├── Crotone.xlsx
 │   │       ├── Crotone.csv
-│   │       ├── Incidenza_per_centomila_abitanti.csv
-│   │       ├── Trend_settimanale_nuovi_casi.csv
-│   │       ├── Trend_settimanale_decessi.csv
-│   │       ├── Trend_settimanale_guariti.csv
-│   │       ├── Trend_settimanale_ricoveri.csv
 │   │
 │   │   ├── Reggio Calabria
-│   │       ├── Reggio Calabria.xlsx
 │   │       ├── Reggio Calabria.csv
-│   │       ├── Incidenza_per_centomila_abitanti.csv
-│   │       ├── Trend_settimanale_nuovi_casi.csv
-│   │       ├── Trend_settimanale_decessi.csv
-│   │       ├── Trend_settimanale_guariti.csv
-│   │       ├── Trend_settimanale_ricoveri.csv
-│   │       ├── Trend_settimanale_terapie_intensive.csv
 │   │
 │   │   ├── Vibo Valentia
-│   │       ├── Vibo Valentia.xlsx
 │   │       ├── Vibo Valentia.csv
-│   │       ├── Incidenza_per_centomila_abitanti.csv
-│   │       ├── Trend_settimanale_nuovi_casi.csv
-│   │       ├── Trend_settimanale_decessi.csv
-│   │       ├── Trend_settimanale_guariti.csv
-│   │       ├── Trend_settimanale_ricoveri.csv
 │   │
 │   ├── regione
-│   │   ├── Calabria.xlsx
 │   │   ├── Calabria.csv
-│   │   ├── Incidenza_per_centomila_abitanti.csv
-│   │   ├── Tamponi_per_centomila_abitanti.csv
-│   │   ├── Tamponi_per_settimana.csv
-│   │   ├── Trend_settimanale_nuovi_casi.csv
-│   │   ├── Trend_settimanale_decessi.csv
-│   │   ├── Trend_settimanale_guariti.csv
-│   │   ├── Trend_settimanale_ricoveri.csv
-│   │   ├── Trend_settimanale_terapie_intensive.csv
+│   │   ├── Occupazione_reparti.csv
+│   │   ├── Occupazione_terapie_intensive.csv
 │   │
 │   ├── vaccinazione
 │   │   ├── dosi_consegnate_per_tipo_vaccino_per_settimana.csv
