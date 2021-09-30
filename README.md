@@ -63,7 +63,7 @@ covid19-opendata-calabria/
 # Descrizione dataset
 
 Nella cartella dati si possono trovare le seguenti tabelle in formato csv: 
-*   **Calabria**: dati sull'andamento del COVID-19 a livello regionale. 
+*   **Calabria**: dati sull'andamento dei contagi e delle ospedalizzazioni COVID-19 a livello regionale. 
 *   **Catanzaro**: dati sull'andamento del COVID-19 nella provincia di Catanzaro.
 *   **Cosenza**: dati sull'andamento del COVID-19 nella provincia di Cosenza.
 *   **Crotone**: dati sull'andamento del COVID-19 nella provincia di Crotone.
