@@ -140,6 +140,8 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | Seconda dose | integer | Numero totale di seconde somministrazioni per giorno. |
 | Pregressa infezione | integer | Numero di somministrazioni effettuate a soggetti con pregressa infezione da COVID-19 nel periodo 3-6 mesi e che, pertanto, concludono il ciclo vaccinale con un'unica dose.  |
 | Monodose | integer | Numero totale di somministrazioni del vaccino monodose per giorno. |
+| Terza dose | integer | Numero totale di somministrazioni dei vaccini che richiedono una dose aggiuntiva/richiamo per giorno. |
+
 
 **somministrazioni_giornaliere_tipo_vaccino**
 
