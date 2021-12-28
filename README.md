@@ -48,8 +48,6 @@ covid19-opendata-calabria/
 │   │
 │   ├── regione
 │   │   ├── Calabria.csv
-│   │   ├── Occupazione_reparti.csv
-│   │   ├── Occupazione_terapie_intensive.csv
 │   │
 │   ├── vaccinazione
 │   │   ├── dosi_consegnate_per_tipo_vaccino_per_settimana.csv
