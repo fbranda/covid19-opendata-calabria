@@ -50,11 +50,11 @@ covid19-opendata-calabria/
 │   │   ├── Calabria.csv
 │   │
 │   ├── vaccinazione
-│   │   ├── dosi_consegnate_per_tipo_vaccino_per_settimana.csv
-│   │   ├── dosi_consegnate_somministrate_per_settimana.csv
-│   │   ├── dosi_somministrate_per_tipo_vaccino_per_settimana.csv
 │   │   ├── somministrazioni_giornaliere_tipo_dose.csv
 │   │   ├── somministrazioni_giornaliere_tipo_vaccino.csv
+│   │   ├── storico_prime_dosi_per_eta.csv
+│   │   ├── storico_seconde_dosi_per_eta.csv
+│   │   ├── storico_terze_dosi_per_eta.csv
 
 ```
 
@@ -68,12 +68,13 @@ Nella cartella dati si possono trovare le seguenti tabelle in formato csv:
 *   **Reggio Calabria**: dati sull'andamento del COVID-19 nella provincia di Reggio Calabria.
 *   **Vibo Valentia**: dati sull'andamento del COVID-19 nella provincia di Vibo Valentia.
 *   **ASP_PROVINCIA_ANNO-MESE-GIORNO**: dati sull'andamento del COVID-19 suddivisi per data e comune. 
-*   **dosi_consegnate_per_tipo_vaccino_per_settimana**: dati sul tipo di vaccino anti-COVID-19 consegnato settimanalmente.
-*   **dosi_consegnate_somministrate_per_settimana**: dati sul numero di dosi di vaccino consegnate e somministrato su base settimanale.
-*   **dosi_somministrate_per_tipo_vaccino_per_settimana**: dati sul tipo di vaccino anti-COVID-19 somministrato su base settimanale.
-*   **somministrazioni_giornaliere_tipo_dose**: dati sul numero assoluto di dosi somministrate al giorno, suddiviso per prima dose, seconda dose e monodose.
 *   **somministrazioni_giornaliere_tipo_vaccino**: dati sul numero assoluto di dosi somministrate al giorno, suddiviso per tipo di vaccino.
 *   **somministrazioni_per_copertura_vaccinale**: dati sulla percentuale di popolazione che ha completato il ciclo vaccinale con due dosi o con vaccino monodose, o che ha ricevuto una sola dose di vaccino, o nessuna dose.
+*   **storico_prime_dosi_per_eta**: numero totale di somministrazione di prime dosi per fascia d'età.
+*   **storico_seconde_dosi_per_eta**: numero totale di somministrazione di seconde dosi per fascia d'età.
+*   **storico_terze_dosi_per_eta**: numero totale di somministrazione di terze dosi (booster) per fascia d'età.
+
+
 
 
 I campi di ogni tabella sono schematizzati come riportato di seguito:
@@ -84,7 +85,6 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | --- | --- | --- |
 | Data | string |  Giorno in cui si registrano nuovi casi. |
 | Nuovi casi | integer | Numero totale di persone risultate positive nelle ultime 24 ore. |
-| Media 7 giorni | integer | Vengono considerati i dati di un determinato periodo e ne viene calcolata la media sommandoli fra loro e dividendo per il numero totale di valori.|
 | Deceduti | integer | Numero totale di persone morte e risultate positive al COVID-19. |
 | Guariti/Dimessi | integer | Numero di pazienti dimessi dagli ospedali, o perché non necessitano più di cure ospedaliere e quindi vengono isolate presso il loro domicilio, o perché ne è stata verificata la negatività attraverso il tampone. |
 | Ricoverati | integer | Numero totale di persone ricoverate in ospedale con sintomi connessi al COVID-19. |
@@ -100,34 +100,6 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | Guariti/Dimessi | integer | Numero di pazienti dimessi dagli ospedali, o perché non necessitano più di cure ospedaliere e quindi vengono isolate presso il loro domicilio, o perché ne è stata verificata la negatività attraverso il tampone. |
 | Ricoverati | integer | Numero totale di persone ricoverate in ospedale con sintomi connessi al COVID-19. |
 | Totale casi| integer | Numero totale di nuovi casi registrati nelle ultime 24 ore (A domicilio + Guariti + Deceduti + Ricoverati). |
-
-**dosi_consegnate_per_tipo_vaccino_per_settimana**
-
-| Campo | Tipo di dati | Descrizione |
-| --- | --- | --- |
-| Data | string | Settimana di riferimento. |
-| Pfizer/BioNTech | integer | Numero totale di consegne di Pfizer/BioNTech. |
-| Moderna | integer | Numero totale di consegne di Moderna. |
-| Vaxzevria (AstraZeneca) | integer | Numero totale di consegne di Vaxzevria (AstraZeneca). |
-| Janssen | integer | Numero totale di consegne di Janssen. |
-
-**dosi_consegnate_somministrate_per_settimana**
-
-| Campo | Tipo di dati | Descrizione |
-| --- | --- | --- |
-| Data | string | Settimana di riferimento. |
-| Dosi consegnate | integer | Numero totale di dosi consegnate per settimana. |
-| Dosi somministrate | integer | Numero totale di dosi somministrate per settimana. |
-
-**dosi_somministrate_per_tipo_vaccino_per_settimana**
-
-| Campo | Tipo di dati | Descrizione |
-| --- | --- | --- |
-| Data | string | Settimana di riferimento. |
-| Pfizer/BioNTech | integer | Numero totale di somministrazioni di Pfizer/BioNTech. |
-| Moderna | integer | Numero totale di somministrazioni di Moderna. |
-| Vaxzevria (AstraZeneca) | integer | Numero totale di somministrazioni di Vaxzevria (AstraZeneca). |
-| Janssen | integer | Numero totale di somministrazioni di Janssen. |
 
 **somministrazioni_giornaliere_tipo_dose**
 
@@ -153,7 +125,20 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | Vaxzevria (AstraZeneca) | integer | Numero totale di somministrazioni di Vaxzevria (AstraZeneca) per giorno. |
 | Janssen | integer | Numero totale di somministrazioni di Janssen per giorno. |
 
+**storico_prime_dosi_per_eta/storico_seconnde_dosi_per_eta/storico_terze_dosi_per_eta**
 
+| Campo | Tipo di dati | Descrizione |
+| --- | --- | --- |
+| Settimana del | string | Settimana in cui è avvenuta la somministrazione. |
+| 05_11 | string | Numero totale di prime/seconde/terze somministrazioni nella fascia d'età 05-11. |
+| 12_19 | string | Numero totale di prime/seconde/terze somministrazioni nella fascia d'età 12-19. |
+| 20_29 | string | Numero totale di prime/seconde/terze somministrazioni nella fascia d'età 20-29. |
+| 30_39 | string | Numero totale di prime/seconde/terze somministrazioni nella fascia d'età 30-39. |
+| 40_49 | string | Numero totale di prime/seconde/terze somministrazioni nella fascia d'età 40-49. |
+| 50_59 | string | Numero totale di prime/seconde/terze somministrazioni nella fascia d'età 50-59. |
+| 60_69 | string | Numero totale di prime/seconde/terze somministrazioni nella fascia d'età 60-69. |
+| 70_79 | string | Numero totale di prime/seconde/terze somministrazioni nella fascia d'età 70-79. |
+| 80+ | string | Numero totale di prime/seconde/terze somministrazioni nella fascia d'età 80+. |
 
 ## Licenza
 
