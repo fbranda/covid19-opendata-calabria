@@ -126,6 +126,7 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | Moderna | integer | Numero totale di somministrazioni di Moderna per giorno. |
 | Vaxzevria (AstraZeneca) | integer | Numero totale di somministrazioni di Vaxzevria (AstraZeneca) per giorno. |
 | Janssen | integer | Numero totale di somministrazioni di Janssen per giorno. |
+| Novavax | integer | Numero totale di somministrazioni di Novavax per giorno. |
 
 **storico_prime_dosi_per_eta/storico_seconnde_dosi_per_eta/storico_terze_dosi_per_eta**
 
