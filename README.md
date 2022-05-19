@@ -52,10 +52,6 @@ covid19-opendata-calabria/
 │   ├── vaccinazione
 │   │   ├── somministrazioni_giornaliere_tipo_dose.csv
 │   │   ├── somministrazioni_giornaliere_tipo_vaccino.csv
-│   │   ├── storico_prime_dosi_per_eta.csv
-│   │   ├── storico_seconde_dosi_per_eta.csv
-│   │   ├── storico_terze_dosi_per_eta.csv
-
 ```
 
 # Descrizione dataset
@@ -128,20 +124,7 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | Janssen | integer | Numero totale di somministrazioni di Janssen per giorno. |
 | Novavax | integer | Numero totale di somministrazioni di Novavax per giorno. |
 
-**storico_prime_dosi_per_eta/storico_seconnde_dosi_per_eta/storico_terze_dosi_per_eta**
 
-| Campo | Tipo di dati | Descrizione |
-| --- | --- | --- |
-| Settimana del | string | Settimana in cui è avvenuta la somministrazione. |
-| 05_11 | string | Numero totale di prime/seconde/terze somministrazioni nella fascia d'età 05-11. |
-| 12_19 | string | Numero totale di prime/seconde/terze somministrazioni nella fascia d'età 12-19. |
-| 20_29 | string | Numero totale di prime/seconde/terze somministrazioni nella fascia d'età 20-29. |
-| 30_39 | string | Numero totale di prime/seconde/terze somministrazioni nella fascia d'età 30-39. |
-| 40_49 | string | Numero totale di prime/seconde/terze somministrazioni nella fascia d'età 40-49. |
-| 50_59 | string | Numero totale di prime/seconde/terze somministrazioni nella fascia d'età 50-59. |
-| 60_69 | string | Numero totale di prime/seconde/terze somministrazioni nella fascia d'età 60-69. |
-| 70_79 | string | Numero totale di prime/seconde/terze somministrazioni nella fascia d'età 70-79. |
-| 80+ | string | Numero totale di prime/seconde/terze somministrazioni nella fascia d'età 80+. |
 
 ## Licenza
 
