@@ -66,7 +66,7 @@ I campi di ogni tabella sono schematizzati come riportato di seguito:
 | Terapia_intensiva_{0-5}{6_12}{13_19}{20_29}{30_39}{40_49}{50_59}{60_69}{70_79}{80_89}{90+} | float | Media mobile (7 giorni) dei ricoveri in terapia intensiva per fascia d'età |
 | Deceduti_{0-5}{6_12}{13_19}{20_29}{30_39}{40_49}{50_59}{60_69}{70_79}{80_89}{90+} | float | Media mobile (7 giorni) dei decessi per fascia d'età |
 
-**Catanzaro/Cosenza/Crotone/Reggio Calabria/Vibo Valentia**
+**Catanzaro-Cosenza-Crotone-Reggio Calabria-Vibo Valentia**
 
 | Campo | Tipo di dati | Descrizione |
 | --- | --- | --- |
